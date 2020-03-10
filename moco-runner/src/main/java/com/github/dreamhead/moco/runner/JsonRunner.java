@@ -71,7 +71,7 @@ public final class JsonRunner implements Runner {
 
     private HttpServer createHttpServer(final Iterable<? extends RunnerSetting> settings, final StartArgs startArgs) {
         HttpServer targetServer = createBaseHttpServer(settings, startArgs);
-        targetServer.request(by(uri("/favicon.ico"))).response(with(pathResource("favicon.png")),
+        targetServer.request(by(uri("/google.ico"))).response(with(pathResource("google.png")),
                 with(header(HttpHeaders.CONTENT_TYPE, MediaType.PNG.toString())));
         return targetServer;
     }

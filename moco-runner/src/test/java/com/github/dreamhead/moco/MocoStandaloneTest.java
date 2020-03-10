@@ -233,7 +233,7 @@ public class MocoStandaloneTest extends AbstractMocoStandaloneTest {
     @Test
     public void should_have_favicon() throws IOException {
         runWithConfiguration("foo.json");
-        String header = helper.getResponse(remoteUrl("/favicon.ico")).getFirstHeader(HttpHeaders.CONTENT_TYPE).getValue();
+        String header = helper.getResponse(remoteUrl("/google.ico")).getFirstHeader(HttpHeaders.CONTENT_TYPE).getValue();
         assertThat(header, is("image/png"));
     }
 }
