@@ -1,0 +1,134 @@
+[
+  {
+    "request" : {
+      "uri" : "/record"
+    },
+    "response" : {
+      "record" : "name"
+    }
+  },
+  {
+    "request" : {
+      "uri" : "/replay"
+    },
+    "response" : {
+      "replay" : "name"
+    }
+  },
+  {
+    "request" : {
+      "uri" : "/record-template"
+    },
+    "response" : {
+      "record" : {
+        "identifier": {
+          "template": "${req.queries['type']}"
+        }
+      }
+    }
+  },
+  {
+    "request" : {
+      "uri" : "/replay-template"
+    },
+    "response" : {
+      "replay" : {
+        "identifier": {
+          "template": "${req.queries['type']}"
+        }
+      }
+    }
+  },
+  {
+    "request" : {
+      "uri" : "/record-modifier"
+    },
+    "response" : {
+      "record" : {
+        "identifier": "modifier"
+      }
+    }
+  },
+  {
+    "request" : {
+      "uri" : "/replay-modifier"
+    },
+    "response" : {
+      "replay" : {
+        "identifier": "modifier",
+        "modifier": "${req.queries['type']}"
+      }
+    }
+  },
+  {
+    "request" : {
+      "uri" : "/record-group"
+    },
+    "response" : {
+      "record" : {
+        "group": "group",
+        "identifier": "modifier"
+      }
+    }
+  },
+  {
+    "request" : {
+      "uri" : "/replay-group"
+    },
+    "response" : {
+      "replay" : {
+        "group": "group",
+        "identifier": "modifier"
+      }
+    }
+  },
+  {
+    "request" : {
+      "uri" : "/record-tape"
+    },
+    "response" : {
+      "record" : {
+        "group": "tape-foo",
+        "tape": "src/test/resources/tape.json"
+      }
+    }
+  },
+  {
+    "request" : {
+      "uri" : "/replay-tape"
+    },
+    "response" : {
+      "replay" : {
+        "group": "tape-foo",
+        "tape": "src/test/resources/tape.json"
+      }
+    }
+  },
+  {
+    "request" : {
+      "uri" : "/record-modifier-with-header"
+    },
+    "response" : {
+      "record" : {
+        "identifier": "modifier"
+      }
+    }
+  },
+  {
+    "request" : {
+      "uri" : "/replay-modifier-with-header"
+    },
+    "response" : {
+      "replay" : {
+        "identifier": "modifier",
+        "modifier": {
+          "headers": {
+            "X-REPLAY": {
+              "template": "${req.queries['type']}"
+            }
+          }
+        }
+      }
+    }
+  }
+]

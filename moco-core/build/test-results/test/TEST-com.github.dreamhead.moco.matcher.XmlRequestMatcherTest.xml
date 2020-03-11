@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.matcher.XmlRequestMatcherTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:37" hostname="ubuntu" time="0.0">
+  <properties/>
+  <testcase name="should_return_false_for_empty_content" classname="com.github.dreamhead.moco.matcher.XmlRequestMatcherTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

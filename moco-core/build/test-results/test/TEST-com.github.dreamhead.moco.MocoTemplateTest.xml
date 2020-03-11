@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoTemplateTest" tests="40" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:36" hostname="ubuntu" time="0.519">
+  <properties/>
+  <testcase name="should_return_file_with_template_and_charset" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.008"/>
+  <testcase name="should_generate_response_with_random" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.017"/>
+  <testcase name="should_throw_exception_for_random_with_range_less_than_0" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.011"/>
+  <testcase name="should_throw_exception_for_reserved_name_as_variable_nem" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.001"/>
+  <testcase name="should_return_file_with_template" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.008"/>
+  <testcase name="should_generate_response_from_file" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.007"/>
+  <testcase name="should_generate_response_with_http_header" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.007"/>
+  <testcase name="should_generate_response_with_two_variables" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.007"/>
+  <testcase name="should_generate_response_with_http_method" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.012"/>
+  <testcase name="should_generate_response_from_file_with_variable_map" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.01"/>
+  <testcase name="should_generate_response_header" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.006"/>
+  <testcase name="should_generate_response_with_variable_by_request" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.009"/>
+  <testcase name="should_generate_response_with_form" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.008"/>
+  <testcase name="should_return_json" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.007"/>
+  <testcase name="should_generate_response_with_variable" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.01"/>
+  <testcase name="should_generate_response_with_random_with_range" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.01"/>
+  <testcase name="should_return_path_resource_with_template" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.008"/>
+  <testcase name="should_generate_response_version" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.013"/>
+  <testcase name="should_generate_response_with_now" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.007"/>
+  <testcase name="should_generate_response_with_uri" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.006"/>
+  <testcase name="should_return_redirect_with_template" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.019"/>
+  <testcase name="should_generate_response_from_file_with_variable_by_request" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.013"/>
+  <testcase name="should_generate_response_with_two_variables_by_request" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.024"/>
+  <testcase name="should_generate_response_with_http_query" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.01"/>
+  <testcase name="should_generate_response_from_file_with_two_variables_by_request" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.016"/>
+  <testcase name="should_generate_response_with_http_version" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.009"/>
+  <testcase name="should_throw_exception_for_unknown_header" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.033"/>
+  <testcase name="should_generate_response_with_random_with_range_and_data_format" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.017"/>
+  <testcase name="should_generate_response_with_content" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.021"/>
+  <testcase name="should_generate_response_from_file_with_variable" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.011"/>
+  <testcase name="should_return_path_resource_with_template_and_charset" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.012"/>
+  <testcase name="should_throw_exception_for_unknown_json" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.032"/>
+  <testcase name="should_generate_response_with_variable_map" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.01"/>
+  <testcase name="should_generate_response_with_two_variables_by_request_and_one_variable_is_plain_text" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.014"/>
+  <testcase name="should_throw_exception_for_now_without_format" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.025"/>
+  <testcase name="should_generate_response_with_random_with_data_format" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.006"/>
+  <testcase name="should_generate_response_from_file_with_two_variables" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.012"/>
+  <testcase name="should_generate_response_with_cookie" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.008"/>
+  <testcase name="should_generate_response_with_many_extracted_variables" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.047"/>
+  <testcase name="should_" classname="com.github.dreamhead.moco.MocoTemplateTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[java.lang.IllegalArgumentException: Random range should be greater than 0
+	at com.github.dreamhead.moco.resource.reader.TemplateResourceReader$RandomMethod.getRange(TemplateResourceReader.java:196)
+	at com.github.dreamhead.moco.resource.reader.TemplateResourceReader$RandomMethod.getRange(TemplateResourceReader.java:186)
+	at com.github.dreamhead.moco.resource.reader.TemplateResourceReader$RandomMethod.exec(TemplateResourceReader.java:159)
+	at freemarker.core.MethodCall._eval(MethodCall.java:62)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:331)
+	at freemarker.core.Environment.process(Environment.java:310)
+	at freemarker.template.Template.process(Template.java:383)
+	at com.github.dreamhead.moco.resource.reader.TemplateResourceReader.readFor(TemplateResourceReader.java:86)
+	at com.github.dreamhead.moco.resource.Resource.readFor(Resource.java:34)
+	at com.github.dreamhead.moco.handler.ContentHandler.responseContent(ContentHandler.java:25)
+	at com.github.dreamhead.moco.handler.AbstractContentResponseHandler.requireResponseContent(AbstractContentResponseHandler.java:46)
+	at com.github.dreamhead.moco.handler.AbstractContentResponseHandler.doWriteToResponse(AbstractContentResponseHandler.java:36)
+	at com.github.dreamhead.moco.handler.AbstractContentResponseHandler.writeToResponse(AbstractContentResponseHandler.java:27)
+	at com.github.dreamhead.moco.setting.BaseSetting.writeToResponse(BaseSetting.java:35)
+	at com.github.dreamhead.moco.internal.MocoHandler.doGetHttpResponse(MocoHandler.java:77)
+	at com.github.dreamhead.moco.internal.MocoHandler.getHttpResponse(MocoHandler.java:61)
+	at com.github.dreamhead.moco.internal.MocoHandler.handleRequest(MocoHandler.java:51)
+	at com.github.dreamhead.moco.internal.MocoHandler.channelRead0(MocoHandler.java:40)
+	at com.github.dreamhead.moco.internal.MocoHandler.channelRead0(MocoHandler.java:25)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:321)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:295)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Mar 11, 2020 1:26:36 AM freemarker.log._JULLoggerFactory$JULLogger error
+SEVERE: Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> req.headers['foo']  [in template "template" at line 1, column 3]
+
+----
+Tip: It's the final [] step that caused this error, not those before it.
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${req.headers["foo"]}  [in template "template" at line 1, column 1]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:479)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:401)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:370)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:331)
+	at freemarker.core.Environment.process(Environment.java:310)
+	at freemarker.template.Template.process(Template.java:383)
+	at com.github.dreamhead.moco.resource.reader.TemplateResourceReader.readFor(TemplateResourceReader.java:86)
+	at com.github.dreamhead.moco.resource.Resource.readFor(Resource.java:34)
+	at com.github.dreamhead.moco.handler.ContentHandler.responseContent(ContentHandler.java:25)
+	at com.github.dreamhead.moco.handler.AbstractContentResponseHandler.requireResponseContent(AbstractContentResponseHandler.java:46)
+	at com.github.dreamhead.moco.handler.AbstractContentResponseHandler.doWriteToResponse(AbstractContentResponseHandler.java:36)
+	at com.github.dreamhead.moco.handler.AbstractContentResponseHandler.writeToResponse(AbstractContentResponseHandler.java:27)
+	at com.github.dreamhead.moco.setting.BaseSetting.writeToResponse(BaseSetting.java:35)
+	at com.github.dreamhead.moco.internal.MocoHandler.doGetHttpResponse(MocoHandler.java:77)
+	at com.github.dreamhead.moco.internal.MocoHandler.getHttpResponse(MocoHandler.java:61)
+	at com.github.dreamhead.moco.internal.MocoHandler.handleRequest(MocoHandler.java:51)
+	at com.github.dreamhead.moco.internal.MocoHandler.channelRead0(MocoHandler.java:40)
+	at com.github.dreamhead.moco.internal.MocoHandler.channelRead0(MocoHandler.java:25)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:321)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:295)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.github.dreamhead.moco.MocoException: freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> req.headers['foo']  [in template "template" at line 1, column 3]
+
+----
+Tip: It's the final [] step that caused this error, not those before it.
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${req.headers["foo"]}  [in template "template" at line 1, column 1]
+----
+	at com.github.dreamhead.moco.resource.reader.TemplateResourceReader.readFor(TemplateResourceReader.java:92)
+	at com.github.dreamhead.moco.resource.Resource.readFor(Resource.java:34)
+	at com.github.dreamhead.moco.handler.ContentHandler.responseContent(ContentHandler.java:25)
+	at com.github.dreamhead.moco.handler.AbstractContentResponseHandler.requireResponseContent(AbstractContentResponseHandler.java:46)
+	at com.github.dreamhead.moco.handler.AbstractContentResponseHandler.doWriteToResponse(AbstractContentResponseHandler.java:36)
+	at com.github.dreamhead.moco.handler.AbstractContentResponseHandler.writeToResponse(AbstractContentResponseHandler.java:27)
+	at com.github.dreamhead.moco.setting.BaseSetting.writeToResponse(BaseSetting.java:35)
+	at com.github.dreamhead.moco.internal.MocoHandler.doGetHttpResponse(MocoHandler.java:77)
+	at com.github.dreamhead.moco.internal.MocoHandler.getHttpResponse(MocoHandler.java:61)
+	at com.github.dreamhead.moco.internal.MocoHandler.handleRequest(MocoHandler.java:51)
+	at com.github.dreamhead.moco.internal.MocoHandler.channelRead0(MocoHandler.java:40)
+	at com.github.dreamhead.moco.internal.MocoHandler.channelRead0(MocoHandler.java:25)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:321)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:295)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> req.headers['foo']  [in template "template" at line 1, column 3]
+
+----
+Tip: It's the final [] step that caused this error, not those before it.
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${req.headers["foo"]}  [in template "template" at line 1, column 1]
+----
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:479)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:401)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:370)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:331)
+	at freemarker.core.Environment.process(Environment.java:310)
+	at freemarker.template.Template.process(Template.java:383)
+	at com.github.dreamhead.moco.resource.reader.TemplateResourceReader.readFor(TemplateResourceReader.java:86)
+	... 40 more
+Mar 11, 2020 1:26:36 AM freemarker.log._JULLoggerFactory$JULLogger error
+SEVERE: Error executing FreeMarker template
+FreeMarker template error:
+An error has occurred when reading existing sub-variable "json"; see cause exception! The type of the containing value was: extended_hash+string (com.github.dreamhead.moco.resource.reader.TemplateRequest wrapped into f.e.b.StringModel)
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${req.json.code}  [in template "template" at line 1, column 1]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core._TemplateModelException: [... Exception message was already printed; see it above ...]
+	at freemarker.ext.beans.BeanModel.get(BeanModel.java:183)
+	at freemarker.core.Dot._eval(Dot.java:43)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.Dot._eval(Dot.java:41)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:331)
+	at freemarker.core.Environment.visit(Environment.java:337)
+	at freemarker.core.Environment.process(Environment.java:310)
+	at freemarker.template.Template.process(Template.java:383)
+	at com.github.dreamhead.moco.resource.reader.TemplateResourceReader.readFor(TemplateResourceReader.java:86)
+	at com.github.dreamhead.moco.resource.Resource.readFor(Resource.java:34)
+	at com.github.dreamhead.moco.handler.ContentHandler.responseContent(ContentHandler.java:25)
+	at com.github.dreamhead.moco.handler.AbstractContentResponseHandler.requireResponseContent(AbstractContentResponseHandler.java:46)
+	at com.github.dreamhead.moco.handler.AbstractContentResponseHandler.doWriteToResponse(AbstractContentResponseHandler.java:36)
+	at com.github.dreamhead.moco.handler.AbstractContentResponseHandler.writeToResponse(AbstractContentResponseHandler.java:27)
+	at com.github.dreamhead.moco.setting.BaseSetting.writeToResponse(BaseSetting.java:35)
+	at com.github.dreamhead.moco.internal.MocoHandler.doGetHttpResponse(MocoHandler.java:77)
+	at com.github.dreamhead.moco.internal.MocoHandler.getHttpResponse(MocoHandler.java:61)
+	at com.github.dreamhead.moco.internal.MocoHandler.handleRequest(MocoHandler.java:51)
+	at com.github.dreamhead.moco.internal.MocoHandler.channelRead0(MocoHandler.java:40)
+	at com.github.dreamhead.moco.internal.MocoHandler.channelRead0(MocoHandler.java:25)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:321)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:295)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at freemarker.ext.beans.BeansWrapper.invokeMethod(BeansWrapper.java:1505)
+	at freemarker.ext.beans.BeanModel.invokeThroughDescriptor(BeanModel.java:231)
+	at freemarker.ext.beans.BeanModel.get(BeanModel.java:150)
+	... 51 more
+Caused by: java.lang.IllegalArgumentException: Json content is expected
+	at com.github.dreamhead.moco.resource.reader.TemplateRequest.getJson(TemplateRequest.java:93)
+	... 58 more
+Caused by: com.github.dreamhead.moco.MocoException: com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+	at com.github.dreamhead.moco.util.Jsons.toObject(Jsons.java:55)
+	at com.github.dreamhead.moco.resource.reader.TemplateRequest.getJson(TemplateRequest.java:91)
+	... 58 more
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4344)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4189)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3205)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3173)
+	at com.github.dreamhead.moco.util.Jsons.toObject(Jsons.java:53)
+	... 59 more
+
+com.github.dreamhead.moco.MocoException: freemarker.core._TemplateModelException: An error has occurred when reading existing sub-variable "json"; see cause exception! The type of the containing value was: extended_hash+string (com.github.dreamhead.moco.resource.reader.TemplateRequest wrapped into f.e.b.StringModel)
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${req.json.code}  [in template "template" at line 1, column 1]
+----
+	at com.github.dreamhead.moco.resource.reader.TemplateResourceReader.readFor(TemplateResourceReader.java:92)
+	at com.github.dreamhead.moco.resource.Resource.readFor(Resource.java:34)
+	at com.github.dreamhead.moco.handler.ContentHandler.responseContent(ContentHandler.java:25)
+	at com.github.dreamhead.moco.handler.AbstractContentResponseHandler.requireResponseContent(AbstractContentResponseHandler.java:46)
+	at com.github.dreamhead.moco.handler.AbstractContentResponseHandler.doWriteToResponse(AbstractContentResponseHandler.java:36)
+	at com.github.dreamhead.moco.handler.AbstractContentResponseHandler.writeToResponse(AbstractContentResponseHandler.java:27)
+	at com.github.dreamhead.moco.setting.BaseSetting.writeToResponse(BaseSetting.java:35)
+	at com.github.dreamhead.moco.internal.MocoHandler.doGetHttpResponse(MocoHandler.java:77)
+	at com.github.dreamhead.moco.internal.MocoHandler.getHttpResponse(MocoHandler.java:61)
+	at com.github.dreamhead.moco.internal.MocoHandler.handleRequest(MocoHandler.java:51)
+	at com.github.dreamhead.moco.internal.MocoHandler.channelRead0(MocoHandler.java:40)
+	at com.github.dreamhead.moco.internal.MocoHandler.channelRead0(MocoHandler.java:25)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:321)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:295)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: freemarker.core._TemplateModelException: An error has occurred when reading existing sub-variable "json"; see cause exception! The type of the containing value was: extended_hash+string (com.github.dreamhead.moco.resource.reader.TemplateRequest wrapped into f.e.b.StringModel)
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${req.json.code}  [in template "template" at line 1, column 1]
+----
+	at freemarker.ext.beans.BeanModel.get(BeanModel.java:183)
+	at freemarker.core.Dot._eval(Dot.java:43)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.Dot._eval(Dot.java:41)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:331)
+	at freemarker.core.Environment.visit(Environment.java:337)
+	at freemarker.core.Environment.process(Environment.java:310)
+	at freemarker.template.Template.process(Template.java:383)
+	at com.github.dreamhead.moco.resource.reader.TemplateResourceReader.readFor(TemplateResourceReader.java:86)
+	... 40 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at freemarker.ext.beans.BeansWrapper.invokeMethod(BeansWrapper.java:1505)
+	at freemarker.ext.beans.BeanModel.invokeThroughDescriptor(BeanModel.java:231)
+	at freemarker.ext.beans.BeanModel.get(BeanModel.java:150)
+	... 51 more
+Caused by: java.lang.IllegalArgumentException: Json content is expected
+	at com.github.dreamhead.moco.resource.reader.TemplateRequest.getJson(TemplateRequest.java:93)
+	... 58 more
+Caused by: com.github.dreamhead.moco.MocoException: com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+	at com.github.dreamhead.moco.util.Jsons.toObject(Jsons.java:55)
+	at com.github.dreamhead.moco.resource.reader.TemplateRequest.getJson(TemplateRequest.java:91)
+	... 58 more
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4344)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4189)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3205)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3173)
+	at com.github.dreamhead.moco.util.Jsons.toObject(Jsons.java:53)
+	... 59 more
+java.lang.IllegalArgumentException: Date format is required
+	at com.github.dreamhead.moco.resource.reader.TemplateResourceReader$NowMethod.exec(TemplateResourceReader.java:147)
+	at freemarker.core.MethodCall._eval(MethodCall.java:62)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:331)
+	at freemarker.core.Environment.process(Environment.java:310)
+	at freemarker.template.Template.process(Template.java:383)
+	at com.github.dreamhead.moco.resource.reader.TemplateResourceReader.readFor(TemplateResourceReader.java:86)
+	at com.github.dreamhead.moco.resource.Resource.readFor(Resource.java:34)
+	at com.github.dreamhead.moco.handler.ContentHandler.responseContent(ContentHandler.java:25)
+	at com.github.dreamhead.moco.handler.AbstractContentResponseHandler.requireResponseContent(AbstractContentResponseHandler.java:46)
+	at com.github.dreamhead.moco.handler.AbstractContentResponseHandler.doWriteToResponse(AbstractContentResponseHandler.java:36)
+	at com.github.dreamhead.moco.handler.AbstractContentResponseHandler.writeToResponse(AbstractContentResponseHandler.java:27)
+	at com.github.dreamhead.moco.setting.BaseSetting.writeToResponse(BaseSetting.java:35)
+	at com.github.dreamhead.moco.internal.MocoHandler.doGetHttpResponse(MocoHandler.java:77)
+	at com.github.dreamhead.moco.internal.MocoHandler.getHttpResponse(MocoHandler.java:61)
+	at com.github.dreamhead.moco.internal.MocoHandler.handleRequest(MocoHandler.java:51)
+	at com.github.dreamhead.moco.internal.MocoHandler.channelRead0(MocoHandler.java:40)
+	at com.github.dreamhead.moco.internal.MocoHandler.channelRead0(MocoHandler.java:25)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:321)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:295)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:377)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:363)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]></system-err>
+</testsuite>

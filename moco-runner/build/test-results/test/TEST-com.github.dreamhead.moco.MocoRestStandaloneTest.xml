@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoRestStandaloneTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:27:22" hostname="ubuntu" time="0.265">
+  <properties/>
+  <testcase name="should_throw_exception_while_no_response_found_in_rest_setting" classname="com.github.dreamhead.moco.MocoRestStandaloneTest" time="0.003"/>
+  <testcase name="should_get_all_resource" classname="com.github.dreamhead.moco.MocoRestStandaloneTest" time="0.031"/>
+  <testcase name="should_head_all_resource" classname="com.github.dreamhead.moco.MocoRestStandaloneTest" time="0.016"/>
+  <testcase name="should_patch" classname="com.github.dreamhead.moco.MocoRestStandaloneTest" time="0.016"/>
+  <testcase name="should_get_sub_resource" classname="com.github.dreamhead.moco.MocoRestStandaloneTest" time="0.02"/>
+  <testcase name="should_head" classname="com.github.dreamhead.moco.MocoRestStandaloneTest" time="0.013"/>
+  <testcase name="should_post" classname="com.github.dreamhead.moco.MocoRestStandaloneTest" time="0.021"/>
+  <testcase name="should_delete" classname="com.github.dreamhead.moco.MocoRestStandaloneTest" time="0.017"/>
+  <testcase name="should_get_resource_with_any_id_and_any_sub" classname="com.github.dreamhead.moco.MocoRestStandaloneTest" time="0.02"/>
+  <testcase name="should_put" classname="com.github.dreamhead.moco.MocoRestStandaloneTest" time="0.016"/>
+  <testcase name="should_get_resource_with_any_id" classname="com.github.dreamhead.moco.MocoRestStandaloneTest" time="0.017"/>
+  <testcase name="should_throw_exception_without_patch_id" classname="com.github.dreamhead.moco.MocoRestStandaloneTest" time="0.002"/>
+  <testcase name="should_get_sub_resource_with_any_id" classname="com.github.dreamhead.moco.MocoRestStandaloneTest" time="0.013"/>
+  <testcase name="should_get_sub_sub_resource" classname="com.github.dreamhead.moco.MocoRestStandaloneTest" time="0.016"/>
+  <testcase name="should_throw_exception_without_delete_id" classname="com.github.dreamhead.moco.MocoRestStandaloneTest" time="0.001"/>
+  <testcase name="should_throw_exception_without_put_id" classname="com.github.dreamhead.moco.MocoRestStandaloneTest" time="0.001"/>
+  <testcase name="should_get_resource" classname="com.github.dreamhead.moco.MocoRestStandaloneTest" time="0.017"/>
+  <system-out><![CDATA[11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+11 Mar 2020 01:27:22 [pool-1-thread-5] INFO  Request received:
+
+GET /all-resources HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+
+11 Mar 2020 01:27:22 [pool-1-thread-5] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 64
+Content-Type: application/json; charset=utf-8
+
+[{"code":1000,"message":"all-1"},{"code":100,"message":"all-2"}]
+
+11 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Request received:
+
+HEAD /all-resources HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Response return:
+
+HTTP/1.1 200
+ETag: Moco
+
+11 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Request received:
+
+PATCH /targets/1 HTTP/1.1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+Content-Length: 6
+Content-Type: text/plain; charset=ISO-8859-1
+
+result
+
+11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 12
+Content-Type: text/plain; charset=utf-8
+
+patch result
+
+11 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+11 Mar 2020 01:27:22 [pool-1-thread-9] INFO  Request received:
+
+GET /targets/1/subs/1 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+
+11 Mar 2020 01:27:22 [pool-1-thread-9] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 26
+Content-Type: application/json; charset=utf-8
+
+{"code":3,"message":"sub"}
+
+11 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Request received:
+
+HEAD /targets/1 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Response return:
+
+HTTP/1.1 200
+ETag: Moco
+
+11 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Request received:
+
+POST /targets HTTP/1.1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+Content-Length: 28
+Content-Type: text/plain; charset=utf-8
+
+{"code":1,"message":"hello"}
+
+11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Response return:
+
+HTTP/1.1 201
+Location: /targets/123
+
+11 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Request received:
+
+DELETE /targets/1 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Response return:
+
+HTTP/1.1 200
+
+
+11 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Request received:
+
+GET /any-targets/1/any-subs/1 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+
+11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 32
+Content-Type: application/json; charset=utf-8
+
+{"code":100,"message":"any-sub"}
+
+11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Request received:
+
+GET /any-targets/2/any-subs/2 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+
+11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 32
+Content-Type: application/json; charset=utf-8
+
+{"code":100,"message":"any-sub"}
+
+11 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Request received:
+
+PUT /targets/1 HTTP/1.1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+Content-Length: 28
+Content-Type: text/plain; charset=utf-8
+
+{"code":1,"message":"hello"}
+
+11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Response return:
+
+HTTP/1.1 200
+
+
+11 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Request received:
+
+GET /any-targets/1 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+
+11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 26
+Content-Type: application/json; charset=utf-8
+
+{"code":1,"message":"any"}
+
+11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Request received:
+
+GET /any-targets/1 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+
+11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 26
+Content-Type: application/json; charset=utf-8
+
+{"code":1,"message":"any"}
+
+11 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+11 Mar 2020 01:27:22 [pool-1-thread-4] INFO  Request received:
+
+GET /targets/1/any-subs/1 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+
+11 Mar 2020 01:27:22 [pool-1-thread-4] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 30
+Content-Type: application/json; charset=utf-8
+
+{"code":4,"message":"any-sub"}
+
+11 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Request received:
+
+GET /targets/1/subs/1/sub-subs/1 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+
+11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 30
+Content-Type: application/json; charset=utf-8
+
+{"code":4,"message":"sub-sub"}
+
+11 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Request received:
+
+GET /targets/1 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+
+11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 26
+Content-Type: application/json; charset=utf-8
+
+{"code":1,"message":"foo"}
+
+11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Request received:
+
+GET /targets/2 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 26
+Content-Type: application/json; charset=utf-8
+
+{"code":2,"message":"bar"}
+
+11 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

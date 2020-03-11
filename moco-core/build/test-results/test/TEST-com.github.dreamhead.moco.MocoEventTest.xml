@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoEventTest" tests="23" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:20" hostname="ubuntu" time="6.509">
+  <properties/>
+  <testcase name="should_not_fire_event_on_specific_request" classname="com.github.dreamhead.moco.MocoEventTest" time="1.689"/>
+  <testcase name="should_send_get_request_to_target_on_complete_with_template_fetching_var_from_request" classname="com.github.dreamhead.moco.MocoEventTest" time="0.319"/>
+  <testcase name="should_send_get_request_to_target_on_complete_with_path_resource" classname="com.github.dreamhead.moco.MocoEventTest" time="0.03"/>
+  <testcase name="should_send_post_request_to_target_on_complete_asyc" classname="com.github.dreamhead.moco.MocoEventTest" time="2.024"/>
+  <testcase name="should_send_post_request_to_target_on_complete_with_gbk" classname="com.github.dreamhead.moco.MocoEventTest" time="0.054"/>
+  <testcase name="should_send_post_request_to_target_on_complete_with_path_resource_url" classname="com.github.dreamhead.moco.MocoEventTest" time="0.023"/>
+  <testcase name="should_send_get_request_with_header_to_target_on_complete_with_resource" classname="com.github.dreamhead.moco.MocoEventTest" time="0.028"/>
+  <testcase name="should_send_post_request_to_target_on_complete_with_template_content" classname="com.github.dreamhead.moco.MocoEventTest" time="0.025"/>
+  <testcase name="should_send_get_request_to_target_on_complete_with_template" classname="com.github.dreamhead.moco.MocoEventTest" time="0.022"/>
+  <testcase name="should_send_post_request_to_target_on_complete_with_resource_url" classname="com.github.dreamhead.moco.MocoEventTest" time="0.02"/>
+  <testcase name="should_not_fire_event_on_other_request" classname="com.github.dreamhead.moco.MocoEventTest" time="0.015"/>
+  <testcase name="should_send_get_request_to_target_on_complete_with_resource" classname="com.github.dreamhead.moco.MocoEventTest" time="0.018"/>
+  <testcase name="should_fire_event_for_context_configuration" classname="com.github.dreamhead.moco.MocoEventTest" time="0.026"/>
+  <testcase name="should_send_post_request_to_target_on_complete_with_path_resource_content" classname="com.github.dreamhead.moco.MocoEventTest" time="0.043"/>
+  <testcase name="should_send_post_request_to_target_on_complete_with_string_and_resource_url" classname="com.github.dreamhead.moco.MocoEventTest" time="0.017"/>
+  <testcase name="should_send_post_request_with_file_root_configuration" classname="com.github.dreamhead.moco.MocoEventTest" time="0.022"/>
+  <testcase name="should_send_post_request_to_target_on_complete" classname="com.github.dreamhead.moco.MocoEventTest" time="0.016"/>
+  <testcase name="should_send_get_request_to_target_on_complete" classname="com.github.dreamhead.moco.MocoEventTest" time="0.016"/>
+  <testcase name="should_send_post_request_to_target_on_complete_async_after_awhile" classname="com.github.dreamhead.moco.MocoEventTest" time="2.015"/>
+  <testcase name="should_send_post_request_with_header_to_target_on_complete" classname="com.github.dreamhead.moco.MocoEventTest" time="0.027"/>
+  <testcase name="should_send_post_request_to_target_on_complete_with_string" classname="com.github.dreamhead.moco.MocoEventTest" time="0.026"/>
+  <testcase name="should_send_get_request_with_text_url_and_header_to_target_on_complete_with_resource" classname="com.github.dreamhead.moco.MocoEventTest" time="0.017"/>
+  <testcase name="should_fire_event_on_complete" classname="com.github.dreamhead.moco.MocoEventTest" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>

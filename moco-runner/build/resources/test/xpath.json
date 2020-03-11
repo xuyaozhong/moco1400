@@ -1,0 +1,15 @@
+[
+   {
+     "request" :
+       {
+         "uri" : "/xpath",
+         "xpaths" : {
+            "/request/parameters/id/text()" : "1"
+         }
+       },
+     "response" :
+       {
+         "text" : "response_for_xpath_request"
+       }
+   }
+]

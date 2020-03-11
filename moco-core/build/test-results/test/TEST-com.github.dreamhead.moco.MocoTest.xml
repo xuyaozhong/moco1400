@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoTest" tests="65" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:30" hostname="ubuntu" time="4.601">
+  <properties/>
+  <testcase name="should_return_expected_response_based_on_specified_request" classname="com.github.dreamhead.moco.MocoTest" time="0.008"/>
+  <testcase name="should_contain_for_resource" classname="com.github.dreamhead.moco.MocoTest" time="0.011"/>
+  <testcase name="should_return_expected_response_based_on_specified_request_with_text_api" classname="com.github.dreamhead.moco.MocoTest" time="0.007"/>
+  <testcase name="should_eq_header" classname="com.github.dreamhead.moco.MocoTest" time="0.008"/>
+  <testcase name="should_return_expected_response_for_multiple_specified_query" classname="com.github.dreamhead.moco.MocoTest" time="0.006"/>
+  <testcase name="should_match_request_based_on_multiple_matchers" classname="com.github.dreamhead.moco.MocoTest" time="0.007"/>
+  <testcase name="should_return_expected_response_from_file_with_charset" classname="com.github.dreamhead.moco.MocoTest" time="0.008"/>
+  <testcase name="should_exist_query" classname="com.github.dreamhead.moco.MocoTest" time="0.014"/>
+  <testcase name="should_match_request_based_on_either_matcher" classname="com.github.dreamhead.moco.MocoTest" time="0.01"/>
+  <testcase name="should_starts_with_for_resource" classname="com.github.dreamhead.moco.MocoTest" time="0.012"/>
+  <testcase name="should_match_request_with_charset_from_file" classname="com.github.dreamhead.moco.MocoTest" time="0.017"/>
+  <testcase name="should_return_expected_response_based_on_specified_uri" classname="com.github.dreamhead.moco.MocoTest" time="0.009"/>
+  <testcase name="should_return_expected_response_with_text_api" classname="com.github.dreamhead.moco.MocoTest" time="0.009"/>
+  <testcase name="should_not_response_for_get_while_http_method_is_not_get" classname="com.github.dreamhead.moco.MocoTest" time="0.007"/>
+  <testcase name="should_eq_multiple_header_with_same_name" classname="com.github.dreamhead.moco.MocoTest" time="0.007"/>
+  <testcase name="should_return_expected_version" classname="com.github.dreamhead.moco.MocoTest" time="0.009"/>
+  <testcase name="should_match_request_based_on_simplified_either_matcher" classname="com.github.dreamhead.moco.MocoTest" time="0.008"/>
+  <testcase name="should_return_content_circularly_one_by_one" classname="com.github.dreamhead.moco.MocoTest" time="0.012"/>
+  <testcase name="should_match_delete_method_via_api" classname="com.github.dreamhead.moco.MocoTest" time="0.007"/>
+  <testcase name="should_match" classname="com.github.dreamhead.moco.MocoTest" time="0.009"/>
+  <testcase name="should_return_content_one_by_one_with_text_api_circularly" classname="com.github.dreamhead.moco.MocoTest" time="0.016"/>
+  <testcase name="should_return_response_one_by_one" classname="com.github.dreamhead.moco.MocoTest" time="0.01"/>
+  <testcase name="should_return_expected_response_with_content_api" classname="com.github.dreamhead.moco.MocoTest" time="0.007"/>
+  <testcase name="should_return_excepted_version_with_version_api" classname="com.github.dreamhead.moco.MocoTest" time="0.007"/>
+  <testcase name="should_return_multiple_expected_header" classname="com.github.dreamhead.moco.MocoTest" time="0.012"/>
+  <testcase name="should_return_expected_response_from_path_resource" classname="com.github.dreamhead.moco.MocoTest" time="0.008"/>
+  <testcase name="should_throw_exception_without_specified_header" classname="com.github.dreamhead.moco.MocoTest" time="0.008"/>
+  <testcase name="should_return_same_http_version_without_specified_version_for_error_response" classname="com.github.dreamhead.moco.MocoTest" time="0.008"/>
+  <testcase name="should_match_request_based_on_not_matcher" classname="com.github.dreamhead.moco.MocoTest" time="0.007"/>
+  <testcase name="should_throw_exception_even_if_match_one_of_conditions" classname="com.github.dreamhead.moco.MocoTest" time="0.007"/>
+  <testcase name="should_set_multiple_header_with_same_name" classname="com.github.dreamhead.moco.MocoTest" time="0.006"/>
+  <testcase name="should_return_response_with_expected_header" classname="com.github.dreamhead.moco.MocoTest" time="0.006"/>
+  <testcase name="should_return_expected_header" classname="com.github.dreamhead.moco.MocoTest" time="0.006"/>
+  <testcase name="should_exist_header" classname="com.github.dreamhead.moco.MocoTest" time="0.008"/>
+  <testcase name="should_starts_with" classname="com.github.dreamhead.moco.MocoTest" time="0.009"/>
+  <testcase name="should_match_version" classname="com.github.dreamhead.moco.MocoTest" time="0.007"/>
+  <testcase name="should_return_same_http_version_without_specified_version" classname="com.github.dreamhead.moco.MocoTest" time="0.01"/>
+  <testcase name="should_return_multiple_expected_header_with_same_name" classname="com.github.dreamhead.moco.MocoTest" time="0.006"/>
+  <testcase name="should_return_expected_response_from_file" classname="com.github.dreamhead.moco.MocoTest" time="0.008"/>
+  <testcase name="should_return_expected_response" classname="com.github.dreamhead.moco.MocoTest" time="0.007"/>
+  <testcase name="should_return_content_one_by_one_with_text_api" classname="com.github.dreamhead.moco.MocoTest" time="0.01"/>
+  <testcase name="should_wait_for_awhile" classname="com.github.dreamhead.moco.MocoTest" time="2.023"/>
+  <testcase name="should_match_header" classname="com.github.dreamhead.moco.MocoTest" time="0.014"/>
+  <testcase name="should_throw_exception_for_unknown_request" classname="com.github.dreamhead.moco.MocoTest" time="0.021"/>
+  <testcase name="should_return_response_with_and_handler" classname="com.github.dreamhead.moco.MocoTest" time="0.01"/>
+  <testcase name="should_return_content_one_by_one" classname="com.github.dreamhead.moco.MocoTest" time="0.01"/>
+  <testcase name="should_return_expected_response_based_on_path_resource" classname="com.github.dreamhead.moco.MocoTest" time="0.007"/>
+  <testcase name="should_match_method" classname="com.github.dreamhead.moco.MocoTest" time="0.008"/>
+  <testcase name="should_match_get_method_by_method_api_with_http_method" classname="com.github.dreamhead.moco.MocoTest" time="0.007"/>
+  <testcase name="should_return_expected_status_code" classname="com.github.dreamhead.moco.MocoTest" time="0.006"/>
+  <testcase name="should_match_get_method_by_method_api" classname="com.github.dreamhead.moco.MocoTest" time="0.006"/>
+  <testcase name="should_return_specified_content_type" classname="com.github.dreamhead.moco.MocoTest" time="0.006"/>
+  <testcase name="should_return_specified_content_type_no_matter_order" classname="com.github.dreamhead.moco.MocoTest" time="0.006"/>
+  <testcase name="should_wait_for_awhile_with_time_unit" classname="com.github.dreamhead.moco.MocoTest" time="2.012"/>
+  <testcase name="should_return_default_content_type" classname="com.github.dreamhead.moco.MocoTest" time="0.012"/>
+  <testcase name="should_match_put_method_via_api" classname="com.github.dreamhead.moco.MocoTest" time="0.012"/>
+  <testcase name="should_ends_with" classname="com.github.dreamhead.moco.MocoTest" time="0.01"/>
+  <testcase name="should_return_expected_response_for_specified_query" classname="com.github.dreamhead.moco.MocoTest" time="0.006"/>
+  <testcase name="should_not_response_for_post_while_http_method_is_not_post" classname="com.github.dreamhead.moco.MocoTest" time="0.01"/>
+  <testcase name="should_return_response_circularly_one_by_one" classname="com.github.dreamhead.moco.MocoTest" time="0.009"/>
+  <testcase name="should_return_specified_content_type_with_case_insensitive" classname="com.github.dreamhead.moco.MocoTest" time="0.006"/>
+  <testcase name="should_ends_with_for_resource" classname="com.github.dreamhead.moco.MocoTest" time="0.007"/>
+  <testcase name="should_return_expected_response_for_empty_query" classname="com.github.dreamhead.moco.MocoTest" time="0.006"/>
+  <testcase name="should_return_expected_response_from_path_resource_with_charset" classname="com.github.dreamhead.moco.MocoTest" time="0.007"/>
+  <testcase name="should_contain" classname="com.github.dreamhead.moco.MocoTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

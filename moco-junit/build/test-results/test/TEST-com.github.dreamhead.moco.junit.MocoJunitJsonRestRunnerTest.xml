@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.junit.MocoJunitJsonRestRunnerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:45" hostname="ubuntu" time="0.035">
+  <properties/>
+  <testcase name="should_return_expected_message" classname="com.github.dreamhead.moco.junit.MocoJunitJsonRestRunnerTest" time="0.035"/>
+  <system-out><![CDATA[11 Mar 2020 01:26:45 [pool-1-thread-7] INFO  Request received:
+
+POST /targets HTTP/1.1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+Content-Length: 5
+Content-Type: text/plain; charset=utf-8
+
+hello
+
+11 Mar 2020 01:26:45 [pool-1-thread-7] INFO  Response return:
+
+HTTP/1.1 201
+Location: /targets/123
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoSocketTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:35" hostname="ubuntu" time="0.04">
+  <properties/>
+  <testcase name="should_match_extreme_big_request" classname="com.github.dreamhead.moco.MocoSocketTest" time="0.006"/>
+  <testcase name="should_log_request_and_response_into_file" classname="com.github.dreamhead.moco.MocoSocketTest" time="0.007"/>
+  <testcase name="should_return_many_expected_responses" classname="com.github.dreamhead.moco.MocoSocketTest" time="0.006"/>
+  <testcase name="should_verify_expected_request_and_log_at_same_time" classname="com.github.dreamhead.moco.MocoSocketTest" time="0.006"/>
+  <testcase name="should_return_expected_response" classname="com.github.dreamhead.moco.MocoSocketTest" time="0.005"/>
+  <testcase name="should_monitor_socket_server_behavior" classname="com.github.dreamhead.moco.MocoSocketTest" time="0.005"/>
+  <testcase name="should_create_socket_server_without_specific_port" classname="com.github.dreamhead.moco.MocoSocketTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoMulipleConfigurationsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:27:34" hostname="ubuntu" time="0.01">
+  <properties/>
+  <testcase name="should_run_with_many_configurations" classname="com.github.dreamhead.moco.MocoMulipleConfigurationsTest" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

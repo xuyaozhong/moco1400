@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.junit.MocoJunitPojoHttpRunnerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:45" hostname="ubuntu" time="0.024">
+  <properties/>
+  <testcase name="should_return_expected_message" classname="com.github.dreamhead.moco.junit.MocoJunitPojoHttpRunnerTest" time="0.024"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

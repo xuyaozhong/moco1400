@@ -1,0 +1,18 @@
+[
+    {
+        "request": {
+            "uri": "/path-resource"
+        },
+        "response": {
+            "path_resource": "path.response"
+        }
+    },
+    {
+        "request": {
+            "path_resource": "path.request"
+        },
+        "response": {
+            "text": "path resource"
+        }
+    }
+]

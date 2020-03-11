@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoStartsWithTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:27:22" hostname="ubuntu" time="0.065">
+  <properties/>
+  <testcase name="should_match_query" classname="com.github.dreamhead.moco.MocoStartsWithTest" time="0.017"/>
+  <testcase name="should_match_uri" classname="com.github.dreamhead.moco.MocoStartsWithTest" time="0.013"/>
+  <testcase name="should_match_header" classname="com.github.dreamhead.moco.MocoStartsWithTest" time="0.015"/>
+  <testcase name="should_match_text" classname="com.github.dreamhead.moco.MocoStartsWithTest" time="0.016"/>
+  <system-out><![CDATA[11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+11 Mar 2020 01:27:22 [pool-1-thread-5] INFO  Request received:
+
+GET /query-match HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+11 Mar 2020 01:27:22 [pool-1-thread-5] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 11
+Content-Type: text/plain; charset=utf-8
+
+query_match
+
+11 Mar 2020 01:27:22 [pool-1-thread-5] INFO  Request received:
+
+GET /query-match HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+11 Mar 2020 01:27:22 [pool-1-thread-5] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 11
+Content-Type: text/plain; charset=utf-8
+
+query_match
+
+11 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+11 Mar 2020 01:27:22 [pool-1-thread-9] INFO  Request received:
+
+GET /foo/bar HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+11 Mar 2020 01:27:22 [pool-1-thread-9] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 9
+Content-Type: text/plain; charset=utf-8
+
+uri_match
+
+11 Mar 2020 01:27:22 [pool-1-thread-9] INFO  Request received:
+
+GET /foo/blah HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+11 Mar 2020 01:27:22 [pool-1-thread-9] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 9
+Content-Type: text/plain; charset=utf-8
+
+uri_match
+
+11 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Request received:
+
+GET /header-match HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+
+11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 12
+Content-Type: text/plain; charset=utf-8
+
+header_match
+
+11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Request received:
+
+GET /header-match HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+Content-Type: application/xml
+
+11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 12
+Content-Type: text/plain; charset=utf-8
+
+header_match
+
+11 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+11 Mar 2020 01:27:22 [pool-1-thread-7] INFO  Request received:
+
+POST /text-match HTTP/1.1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+Content-Length: 6
+Content-Type: text/plain; charset=UTF-8
+
+foobar
+
+11 Mar 2020 01:27:22 [pool-1-thread-7] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 10
+Content-Type: text/plain; charset=utf-8
+
+text_match
+
+11 Mar 2020 01:27:22 [pool-1-thread-7] INFO  Request received:
+
+POST /text-match HTTP/1.1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+Content-Length: 7
+Content-Type: text/plain; charset=UTF-8
+
+fooblah
+
+11 Mar 2020 01:27:22 [pool-1-thread-7] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 10
+Content-Type: text/plain; charset=utf-8
+
+text_match
+
+11 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

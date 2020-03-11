@@ -1,0 +1,1653 @@
+D11 Mar 2020 01:26:51 [Test worker] INFO  Server is started at 12306
+?11 Mar 2020 01:26:51 [pool-1-thread-2] INFO  Request received:
+
+%GET /json_response_shortcut HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+>11 Mar 2020 01:26:51 [pool-1-thread-2] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 13
+.Content-Type: application/json; charset=utf-8
+
+{"foo":"bar"}
+
+911 Mar 2020 01:26:51 [Test worker] INFO  Server stopped.
+D11 Mar 2020 01:26:51 [Test worker] INFO  Server is started at 12306
+?11 Mar 2020 01:26:51 [pool-1-thread-6] INFO  Request received:
+
+POST /json_shortcut HTTP/1.1
+Connection: Keep-Alive
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+Content-Length: 16
+(Content-Type: text/plain; charset=UTF-8
+
+{
+	"foo":"bar"
+}
+
+>11 Mar 2020 01:26:51 [pool-1-thread-6] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 26
+(Content-Type: text/plain; charset=utf-8
+
+response_for_json_shortcut
+
+911 Mar 2020 01:26:51 [Test worker] INFO  Server stopped.
+D11 Mar 2020 01:26:51 [Test worker] INFO  Server is started at 12306
+?11 Mar 2020 01:26:51 [pool-1-thread-1] INFO  Request received:
+
+POST /jsonpath HTTP/1.1
+Connection: Keep-Alive
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+Content-Length: 22
+(Content-Type: text/plain; charset=UTF-8
+
+{"book":{"price":"1"}}
+
+>11 Mar 2020 01:26:51 [pool-1-thread-1] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 30
+(Content-Type: text/plain; charset=utf-8
+
+response_for_json_path_request
+
+911 Mar 2020 01:26:51 [Test worker] INFO  Server stopped.
+D11 Mar 2020 01:26:51 [Test worker] INFO  Server is started at 12306
+?11 Mar 2020 01:26:51 [pool-1-thread-1] INFO  Request received:
+
+POST /json HTTP/1.1
+Connection: Keep-Alive
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+Content-Length: 16
+(Content-Type: text/plain; charset=UTF-8
+
+{
+	"foo":"bar"
+}
+
+>11 Mar 2020 01:26:51 [pool-1-thread-1] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 25
+(Content-Type: text/plain; charset=utf-8
+
+response_for_json_request
+
+911 Mar 2020 01:26:51 [Test worker] INFO  Server stopped.
+D11 Mar 2020 01:26:51 [Test worker] INFO  Server is started at 12306
+?11 Mar 2020 01:26:51 [pool-1-thread-2] INFO  Request received:
+
+GET /seq-json HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+>11 Mar 2020 01:26:51 [pool-1-thread-2] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 13
+.Content-Type: application/json; charset=utf-8
+
+{"foo":"bar"}
+
+?11 Mar 2020 01:26:51 [pool-1-thread-2] INFO  Request received:
+
+GET /seq-json HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+>11 Mar 2020 01:26:51 [pool-1-thread-2] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 17
+.Content-Type: application/json; charset=utf-8
+
+{"hello":"world"}
+
+?11 Mar 2020 01:26:51 [pool-1-thread-2] INFO  Request received:
+
+GET /seq-json HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+>11 Mar 2020 01:26:51 [pool-1-thread-2] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 17
+.Content-Type: application/json; charset=utf-8
+
+{"hello":"world"}
+
+911 Mar 2020 01:26:51 [Test worker] INFO  Server stopped.
+D11 Mar 2020 01:26:51 [Test worker] INFO  Server is started at 12306
+?11 Mar 2020 01:26:51 [pool-1-thread-2] INFO  Request received:
+
+GET /seq HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+>11 Mar 2020 01:26:51 [pool-1-thread-2] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 3
+(Content-Type: text/plain; charset=utf-8
+
+foo
+
+?11 Mar 2020 01:26:51 [pool-1-thread-2] INFO  Request received:
+
+GET /seq HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+>11 Mar 2020 01:26:51 [pool-1-thread-2] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 3
+(Content-Type: text/plain; charset=utf-8
+
+bar
+
+?11 Mar 2020 01:26:51 [pool-1-thread-2] INFO  Request received:
+
+GET /seq HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+>11 Mar 2020 01:26:51 [pool-1-thread-2] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 3
+(Content-Type: text/plain; charset=utf-8
+
+bar
+
+911 Mar 2020 01:26:51 [Test worker] INFO  Server stopped.
+
+	D11 Mar 2020 01:26:51 [Test worker] INFO  Server is started at 12306
+
+	?11 Mar 2020 01:26:53 [Test worker] INFO  Shutdown port is 9090
+
+	?11 Mar 2020 01:26:53 [pool-1-thread-5] INFO  Request received:
+
+	
+
+	GET / HTTP/1.1
+
+	content-length: 0
+
+	Connection: Keep-Alive
+
+	3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+
+	Host: localhost:12306
+
+	Accept-Encoding: gzip,deflate
+
+	
+
+	>11 Mar 2020 01:26:53 [pool-1-thread-5] INFO  Response return:
+
+	
+
+	HTTP/1.1 200
+
+	Content-Length: 3
+
+	(Content-Type: text/plain; charset=utf-8
+
+	
+
+	foo
+
+	
+
+	J11 Mar 2020 01:26:53 [pool-1-thread-1] INFO  config.json change detected.
+
+	=11 Mar 2020 01:26:53 [pool-1-thread-1] INFO  Server stopped.
+
+	H11 Mar 2020 01:26:53 [pool-1-thread-1] INFO  Server is started at 12306
+
+	?11 Mar 2020 01:26:56 [pool-1-thread-4] INFO  Request received:
+
+	
+
+	GET / HTTP/1.1
+
+	content-length: 0
+
+	Connection: Keep-Alive
+
+	3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+
+	Host: localhost:12306
+
+	Accept-Encoding: gzip,deflate
+
+	
+
+	>11 Mar 2020 01:26:56 [pool-1-thread-4] INFO  Response return:
+
+	
+
+	HTTP/1.1 200
+
+	Content-Length: 6
+
+	(Content-Type: text/plain; charset=utf-8
+
+	
+
+	foobar
+
+	
+
+	911 Mar 2020 01:26:56 [Test worker] INFO  Server stopped.
+
+D11 Mar 2020 01:26:56 [Test worker] INFO  Server is started at 12306
+
+?11 Mar 2020 01:26:57 [Test worker] INFO  Shutdown port is 9090
+
+?11 Mar 2020 01:26:57 [pool-1-thread-8] INFO  Request received:
+
+
+
+GET / HTTP/1.1
+
+content-length: 0
+
+Connection: Keep-Alive
+
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+
+Host: localhost:12306
+
+Accept-Encoding: gzip,deflate
+
+
+
+>11 Mar 2020 01:26:57 [pool-1-thread-8] INFO  Response return:
+
+
+
+HTTP/1.1 200
+
+Content-Length: 3
+
+(Content-Type: text/plain; charset=utf-8
+
+
+
+foo
+
+
+
+911 Mar 2020 01:26:57 [Test worker] INFO  Server stopped.
+
+D11 Mar 2020 01:26:57 [Test worker] INFO  Server is started at 12306
+
+?11 Mar 2020 01:27:00 [Test worker] INFO  Shutdown port is 9090
+
+?11 Mar 2020 01:27:00 [pool-1-thread-9] INFO  Request received:
+
+
+
+GET /foo HTTP/1.1
+
+content-length: 0
+
+Connection: Keep-Alive
+
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+
+Host: localhost:12306
+
+Accept-Encoding: gzip,deflate
+
+
+
+>11 Mar 2020 01:27:00 [pool-1-thread-9] INFO  Response return:
+
+
+
+HTTP/1.1 200
+
+Content-Length: 3
+
+(Content-Type: text/plain; charset=utf-8
+
+
+
+foo
+
+
+
+?11 Mar 2020 01:27:00 [pool-1-thread-9] INFO  Request received:
+
+
+
+GET /bar HTTP/1.1
+
+content-length: 0
+
+Connection: Keep-Alive
+
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+
+Host: localhost:12306
+
+Accept-Encoding: gzip,deflate
+
+
+
+>11 Mar 2020 01:27:00 [pool-1-thread-9] INFO  Response return:
+
+
+
+HTTP/1.1 200
+
+Content-Length: 3
+
+(Content-Type: text/plain; charset=utf-8
+
+
+
+bar
+
+
+
+@11 Mar 2020 01:27:03 [pool-1-thread-10] INFO  Request received:
+
+
+
+GET /foo HTTP/1.1
+
+content-length: 0
+
+Connection: Keep-Alive
+
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+
+Host: localhost:12306
+
+Accept-Encoding: gzip,deflate
+
+
+
+?11 Mar 2020 01:27:03 [pool-1-thread-10] INFO  Response return:
+
+
+
+HTTP/1.1 200
+
+Content-Length: 4
+
+(Content-Type: text/plain; charset=utf-8
+
+
+
+foo1
+
+
+
+911 Mar 2020 01:27:03 [Test worker] INFO  Server stopped.
+
+D11 Mar 2020 01:27:03 [Test worker] INFO  Server is started at 12306
+
+?11 Mar 2020 01:27:04 [Test worker] INFO  Shutdown port is 9090
+
+@11 Mar 2020 01:27:04 [pool-1-thread-11] INFO  Request received:
+
+
+
+GET / HTTP/1.1
+
+content-length: 0
+
+Connection: Keep-Alive
+
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+
+Host: localhost:12306
+
+Accept-Encoding: gzip,deflate
+
+
+
+?11 Mar 2020 01:27:04 [pool-1-thread-11] INFO  Response return:
+
+
+
+HTTP/1.1 200
+
+Content-Length: 3
+
+(Content-Type: text/plain; charset=utf-8
+
+
+
+foo
+
+
+
+911 Mar 2020 01:27:04 [Test worker] INFO  Server stopped.
+D11 Mar 2020 01:27:04 [Test worker] INFO  Server is started at 12306
+?11 Mar 2020 01:27:05 [Test worker] INFO  Shutdown port is 9090
+?11 Mar 2020 01:27:05 [pool-1-thread-9] INFO  Request received:
+
+GET / HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+>11 Mar 2020 01:27:05 [pool-1-thread-9] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 3
+(Content-Type: text/plain; charset=utf-8
+
+foo
+
+]11 Mar 2020 01:27:05 [pool-1-thread-11] INFO  junit15646418463024424819.tmp change detected.
+>11 Mar 2020 01:27:05 [pool-1-thread-11] INFO  Server stopped.
+I11 Mar 2020 01:27:05 [pool-1-thread-11] INFO  Server is started at 12306
+]11 Mar 2020 01:27:05 [pool-1-thread-11] INFO  junit15646418463024424819.tmp change detected.
+>11 Mar 2020 01:27:05 [pool-1-thread-11] INFO  Server stopped.
+I11 Mar 2020 01:27:05 [pool-1-thread-11] INFO  Server is started at 12306
+?11 Mar 2020 01:27:08 [pool-1-thread-3] INFO  Request received:
+
+GET / HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+>11 Mar 2020 01:27:08 [pool-1-thread-3] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 6
+(Content-Type: text/plain; charset=utf-8
+
+foobar
+
+911 Mar 2020 01:27:08 [Test worker] INFO  Server stopped.
+911 Mar 2020 01:27:08 [Test worker] INFO  Server stopped.
+D11 Mar 2020 01:27:09 [Test worker] INFO  Server is started at 12306
+?11 Mar 2020 01:27:10 [Test worker] INFO  Shutdown port is 9527
+?11 Mar 2020 01:27:10 [pool-1-thread-1] INFO  Request received:
+
+GET / HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+>11 Mar 2020 01:27:10 [pool-1-thread-1] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 3
+(Content-Type: text/plain; charset=utf-8
+
+foo
+
+911 Mar 2020 01:27:10 [Test worker] INFO  Server stopped.
+911 Mar 2020 01:27:10 [Test worker] INFO  Server stopped.
+D11 Mar 2020 01:27:10 [Test worker] INFO  Server is started at 12306
+?11 Mar 2020 01:27:11 [Test worker] INFO  Shutdown port is 9527
+?11 Mar 2020 01:27:11 [pool-1-thread-9] INFO  Request received:
+
+GET / HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+>11 Mar 2020 01:27:11 [pool-1-thread-9] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 3
+(Content-Type: text/plain; charset=utf-8
+
+foo
+
+=11 Mar 2020 01:27:11 [pool-1-thread-8] INFO  Server stopped.
+911 Mar 2020 01:27:14 [Test worker] INFO  Server stopped.
+D11 Mar 2020 01:27:14 [Test worker] INFO  Server is started at 12306
+@11 Mar 2020 01:27:15 [Test worker] INFO  Shutdown port is 34201
+?11 Mar 2020 01:27:15 [pool-1-thread-9] INFO  Request received:
+
+GET / HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+>11 Mar 2020 01:27:15 [pool-1-thread-9] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 3
+(Content-Type: text/plain; charset=utf-8
+
+foo
+
+=11 Mar 2020 01:27:15 [pool-1-thread-7] INFO  Server stopped.
+911 Mar 2020 01:27:18 [Test worker] INFO  Server stopped.
+D11 Mar 2020 01:27:18 [Test worker] INFO  Server is started at 12306
+?11 Mar 2020 01:27:19 [Test worker] INFO  Shutdown port is 9527
+@11 Mar 2020 01:27:19 [pool-1-thread-10] INFO  Request received:
+
+GET / HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+?11 Mar 2020 01:27:19 [pool-1-thread-10] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 3
+(Content-Type: text/plain; charset=utf-8
+
+foo
+
+=11 Mar 2020 01:27:19 [pool-1-thread-9] INFO  Server stopped.
+911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+D11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+?11 Mar 2020 01:27:22 [pool-1-thread-9] INFO  Request received:
+
+ GET /fileroot/fileroot HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+>11 Mar 2020 01:27:22 [pool-1-thread-9] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 12
+(Content-Type: text/plain; charset=utf-8
+
+foo.response
+
+911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+D11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+?11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Request received:
+
+GET /foo HTTP/1.1
+content-length: 0
+	foo: bar
+Connection: Keep-Alive
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+>11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 3
+(Content-Type: text/plain; charset=utf-8
+
+foo
+
+911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+D11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+?11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Request received:
+
+GET /foo HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+>11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Response return:
+
+HTTP/1.1 200
+	foo: bar
+Content-Length: 3
+(Content-Type: text/plain; charset=utf-8
+
+foo
+
+911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+D11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+?11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Request received:
+
+GET /foo/foo HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+>11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 3
+(Content-Type: text/plain; charset=utf-8
+
+foo
+
+?11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Request received:
+
+GET /bar/bar HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+>11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 3
+(Content-Type: text/plain; charset=utf-8
+
+bar
+
+911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+D11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+?11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Request received:
+
+GET /foo HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+>11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Response return:
+
+HTTP/1.1 400
+
+
+911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+D11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+?11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Request received:
+
+GET /foo/foo HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+>11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 3
+(Content-Type: text/plain; charset=utf-8
+
+foo
+
+911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+D11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+?11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Request received:
+
+GET /foo/foo HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+>11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Response return:
+
+HTTP/1.1 400
+
+
+911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+D11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+?11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Request received:
+
+GET /foo HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+>11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 3
+(Content-Type: text/plain; charset=utf-8
+
+foo
+
+?11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Request received:
+
+GET /bar HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+>11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 3
+(Content-Type: text/plain; charset=utf-8
+
+bar
+
+911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+%$D11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+%$?11 Mar 2020 01:27:22 [pool-1-thread-5] INFO  Request received:
+%$
+%$GET /query-match HTTP/1.1
+%$content-length: 0
+%$Connection: Keep-Alive
+%$3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+%$Host: localhost:12306
+%$Accept-Encoding: gzip,deflate
+%$
+%$>11 Mar 2020 01:27:22 [pool-1-thread-5] INFO  Response return:
+%$
+%$HTTP/1.1 200
+%$Content-Length: 11
+%$(Content-Type: text/plain; charset=utf-8
+%$
+%$query_match
+%$
+%$?11 Mar 2020 01:27:22 [pool-1-thread-5] INFO  Request received:
+%$
+%$GET /query-match HTTP/1.1
+%$content-length: 0
+%$Connection: Keep-Alive
+%$3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+%$Host: localhost:12306
+%$Accept-Encoding: gzip,deflate
+%$
+%$>11 Mar 2020 01:27:22 [pool-1-thread-5] INFO  Response return:
+%$
+%$HTTP/1.1 200
+%$Content-Length: 11
+%$(Content-Type: text/plain; charset=utf-8
+%$
+%$query_match
+%$
+%$911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+%&D11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+%&?11 Mar 2020 01:27:22 [pool-1-thread-9] INFO  Request received:
+%&
+%&GET /foo/bar HTTP/1.1
+%&content-length: 0
+%&Connection: Keep-Alive
+%&3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+%&Host: localhost:12306
+%&Accept-Encoding: gzip,deflate
+%&
+%&>11 Mar 2020 01:27:22 [pool-1-thread-9] INFO  Response return:
+%&
+%&HTTP/1.1 200
+%&Content-Length: 9
+%&(Content-Type: text/plain; charset=utf-8
+%&
+%&
+uri_match
+%&
+%&?11 Mar 2020 01:27:22 [pool-1-thread-9] INFO  Request received:
+%&
+%&GET /foo/blah HTTP/1.1
+%&content-length: 0
+%&Connection: Keep-Alive
+%&3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+%&Host: localhost:12306
+%&Accept-Encoding: gzip,deflate
+%&
+%&>11 Mar 2020 01:27:22 [pool-1-thread-9] INFO  Response return:
+%&
+%&HTTP/1.1 200
+%&Content-Length: 9
+%&(Content-Type: text/plain; charset=utf-8
+%&
+%&
+uri_match
+%&
+%&911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+%'D11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+%'?11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Request received:
+%'
+%'GET /header-match HTTP/1.1
+%'content-length: 0
+%'Connection: Keep-Alive
+%'3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+%'Host: localhost:12306
+%'Accept-Encoding: gzip,deflate
+%'Content-Type: application/json
+%'
+%'>11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Response return:
+%'
+%'HTTP/1.1 200
+%'Content-Length: 12
+%'(Content-Type: text/plain; charset=utf-8
+%'
+%'header_match
+%'
+%'?11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Request received:
+%'
+%'GET /header-match HTTP/1.1
+%'content-length: 0
+%'Connection: Keep-Alive
+%'3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+%'Host: localhost:12306
+%'Accept-Encoding: gzip,deflate
+%'Content-Type: application/xml
+%'
+%'>11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Response return:
+%'
+%'HTTP/1.1 200
+%'Content-Length: 12
+%'(Content-Type: text/plain; charset=utf-8
+%'
+%'header_match
+%'
+%'911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+%(D11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+%(?11 Mar 2020 01:27:22 [pool-1-thread-7] INFO  Request received:
+%(
+%(POST /text-match HTTP/1.1
+%(Connection: Keep-Alive
+%(3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+%(Host: localhost:12306
+%(Accept-Encoding: gzip,deflate
+%(Content-Length: 6
+%((Content-Type: text/plain; charset=UTF-8
+%(
+%(foobar
+%(
+%(>11 Mar 2020 01:27:22 [pool-1-thread-7] INFO  Response return:
+%(
+%(HTTP/1.1 200
+%(Content-Length: 10
+%((Content-Type: text/plain; charset=utf-8
+%(
+%(text_match
+%(
+%(?11 Mar 2020 01:27:22 [pool-1-thread-7] INFO  Request received:
+%(
+%(POST /text-match HTTP/1.1
+%(Connection: Keep-Alive
+%(3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+%(Host: localhost:12306
+%(Accept-Encoding: gzip,deflate
+%(Content-Length: 7
+%((Content-Type: text/plain; charset=UTF-8
+%(
+%(fooblah
+%(
+%(>11 Mar 2020 01:27:22 [pool-1-thread-7] INFO  Response return:
+%(
+%(HTTP/1.1 200
+%(Content-Length: 10
+%((Content-Type: text/plain; charset=utf-8
+%(
+%(text_match
+%(
+%(911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+*)?11 Mar 2020 01:27:22 [pool-1-thread-9] INFO  Request received:
+*)
+*)foo
+*)
+*)>11 Mar 2020 01:27:22 [pool-1-thread-9] INFO  Response return:
+*)
+*)bar
+*)
+*)?11 Mar 2020 01:27:22 [pool-1-thread-9] INFO  Request received:
+*)
+*)	anything
+*)
+*)>11 Mar 2020 01:27:22 [pool-1-thread-9] INFO  Response return:
+*)
+*)blah
+*)
+*+?11 Mar 2020 01:27:22 [pool-1-thread-7] INFO  Request received:
+*+
+*+foo
+*+
+*+>11 Mar 2020 01:27:22 [pool-1-thread-7] INFO  Response return:
+*+
+*+bar
+*+
+-.D11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+-.?11 Mar 2020 01:27:22 [pool-1-thread-5] INFO  Request received:
+-.
+-.GET /all-resources HTTP/1.1
+-.content-length: 0
+-.Connection: Keep-Alive
+-.3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+-.Host: localhost:12306
+-.Accept-Encoding: gzip,deflate
+-.Content-Type: application/json
+-.
+-.>11 Mar 2020 01:27:22 [pool-1-thread-5] INFO  Response return:
+-.
+-.HTTP/1.1 200
+-.Content-Length: 64
+-..Content-Type: application/json; charset=utf-8
+-.
+-.A[{"code":1000,"message":"all-1"},{"code":100,"message":"all-2"}]
+-.
+-.911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+-/D11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+-/?11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Request received:
+-/
+-/HEAD /all-resources HTTP/1.1
+-/content-length: 0
+-/Connection: Keep-Alive
+-/3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+-/Host: localhost:12306
+-/Accept-Encoding: gzip,deflate
+-/
+-/>11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Response return:
+-/
+-/HTTP/1.1 200
+-/ETag: Moco
+-/
+-/911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+-0D11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+-0?11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Request received:
+-0
+-0PATCH /targets/1 HTTP/1.1
+-0Connection: Keep-Alive
+-03User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+-0Host: localhost:12306
+-0Accept-Encoding: gzip,deflate
+-0Content-Length: 6
+-0-Content-Type: text/plain; charset=ISO-8859-1
+-0
+-0result
+-0
+-0>11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Response return:
+-0
+-0HTTP/1.1 200
+-0Content-Length: 12
+-0(Content-Type: text/plain; charset=utf-8
+-0
+-0patch result
+-0
+-0911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+-1D11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+-1?11 Mar 2020 01:27:22 [pool-1-thread-9] INFO  Request received:
+-1
+-1GET /targets/1/subs/1 HTTP/1.1
+-1content-length: 0
+-1Connection: Keep-Alive
+-13User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+-1Host: localhost:12306
+-1Accept-Encoding: gzip,deflate
+-1Content-Type: application/json
+-1
+-1>11 Mar 2020 01:27:22 [pool-1-thread-9] INFO  Response return:
+-1
+-1HTTP/1.1 200
+-1Content-Length: 26
+-1.Content-Type: application/json; charset=utf-8
+-1
+-1{"code":3,"message":"sub"}
+-1
+-1911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+-2D11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+-2?11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Request received:
+-2
+-2HEAD /targets/1 HTTP/1.1
+-2content-length: 0
+-2Connection: Keep-Alive
+-23User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+-2Host: localhost:12306
+-2Accept-Encoding: gzip,deflate
+-2
+-2>11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Response return:
+-2
+-2HTTP/1.1 200
+-2ETag: Moco
+-2
+-2911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+-3D11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+-3?11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Request received:
+-3
+-3POST /targets HTTP/1.1
+-3Connection: Keep-Alive
+-33User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+-3Host: localhost:12306
+-3Accept-Encoding: gzip,deflate
+-3Content-Length: 28
+-3(Content-Type: text/plain; charset=utf-8
+-3
+-3{"code":1,"message":"hello"}
+-3
+-3>11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Response return:
+-3
+-3HTTP/1.1 201
+-3Location: /targets/123
+-3
+-3911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+-4D11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+-4?11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Request received:
+-4
+-4DELETE /targets/1 HTTP/1.1
+-4content-length: 0
+-4Connection: Keep-Alive
+-43User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+-4Host: localhost:12306
+-4Accept-Encoding: gzip,deflate
+-4
+-4>11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Response return:
+-4
+-4HTTP/1.1 200
+-4
+-4
+-4911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+-5D11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+-5?11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Request received:
+-5
+-5'GET /any-targets/1/any-subs/1 HTTP/1.1
+-5content-length: 0
+-5Connection: Keep-Alive
+-53User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+-5Host: localhost:12306
+-5Accept-Encoding: gzip,deflate
+-5Content-Type: application/json
+-5
+-5>11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Response return:
+-5
+-5HTTP/1.1 200
+-5Content-Length: 32
+-5.Content-Type: application/json; charset=utf-8
+-5
+-5!{"code":100,"message":"any-sub"}
+-5
+-5?11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Request received:
+-5
+-5'GET /any-targets/2/any-subs/2 HTTP/1.1
+-5content-length: 0
+-5Connection: Keep-Alive
+-53User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+-5Host: localhost:12306
+-5Accept-Encoding: gzip,deflate
+-5Content-Type: application/json
+-5
+-5>11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Response return:
+-5
+-5HTTP/1.1 200
+-5Content-Length: 32
+-5.Content-Type: application/json; charset=utf-8
+-5
+-5!{"code":100,"message":"any-sub"}
+-5
+-5911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+-6D11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+-6?11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Request received:
+-6
+-6PUT /targets/1 HTTP/1.1
+-6Connection: Keep-Alive
+-63User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+-6Host: localhost:12306
+-6Accept-Encoding: gzip,deflate
+-6Content-Length: 28
+-6(Content-Type: text/plain; charset=utf-8
+-6
+-6{"code":1,"message":"hello"}
+-6
+-6>11 Mar 2020 01:27:22 [pool-1-thread-8] INFO  Response return:
+-6
+-6HTTP/1.1 200
+-6
+-6
+-6911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+-7D11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+-7?11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Request received:
+-7
+-7GET /any-targets/1 HTTP/1.1
+-7content-length: 0
+-7Connection: Keep-Alive
+-73User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+-7Host: localhost:12306
+-7Accept-Encoding: gzip,deflate
+-7Content-Type: application/json
+-7
+-7>11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Response return:
+-7
+-7HTTP/1.1 200
+-7Content-Length: 26
+-7.Content-Type: application/json; charset=utf-8
+-7
+-7{"code":1,"message":"any"}
+-7
+-7?11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Request received:
+-7
+-7GET /any-targets/1 HTTP/1.1
+-7content-length: 0
+-7Connection: Keep-Alive
+-73User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+-7Host: localhost:12306
+-7Accept-Encoding: gzip,deflate
+-7Content-Type: application/json
+-7
+-7>11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Response return:
+-7
+-7HTTP/1.1 200
+-7Content-Length: 26
+-7.Content-Type: application/json; charset=utf-8
+-7
+-7{"code":1,"message":"any"}
+-7
+-7911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+-9D11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+-9?11 Mar 2020 01:27:22 [pool-1-thread-4] INFO  Request received:
+-9
+-9#GET /targets/1/any-subs/1 HTTP/1.1
+-9content-length: 0
+-9Connection: Keep-Alive
+-93User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+-9Host: localhost:12306
+-9Accept-Encoding: gzip,deflate
+-9Content-Type: application/json
+-9
+-9>11 Mar 2020 01:27:22 [pool-1-thread-4] INFO  Response return:
+-9
+-9HTTP/1.1 200
+-9Content-Length: 30
+-9.Content-Type: application/json; charset=utf-8
+-9
+-9{"code":4,"message":"any-sub"}
+-9
+-9911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+-:D11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+-:?11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Request received:
+-:
+-:*GET /targets/1/subs/1/sub-subs/1 HTTP/1.1
+-:content-length: 0
+-:Connection: Keep-Alive
+-:3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+-:Host: localhost:12306
+-:Accept-Encoding: gzip,deflate
+-:Content-Type: application/json
+-:
+-:>11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Response return:
+-:
+-:HTTP/1.1 200
+-:Content-Length: 30
+-:.Content-Type: application/json; charset=utf-8
+-:
+-:{"code":4,"message":"sub-sub"}
+-:
+-:911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+-=D11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+-=?11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Request received:
+-=
+-=GET /targets/1 HTTP/1.1
+-=content-length: 0
+-=Connection: Keep-Alive
+-=3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+-=Host: localhost:12306
+-=Accept-Encoding: gzip,deflate
+-=Content-Type: application/json
+-=
+-=>11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Response return:
+-=
+-=HTTP/1.1 200
+-=Content-Length: 26
+-=.Content-Type: application/json; charset=utf-8
+-=
+-={"code":1,"message":"foo"}
+-=
+-=?11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Request received:
+-=
+-=GET /targets/2 HTTP/1.1
+-=content-length: 0
+-=Connection: Keep-Alive
+-=3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+-=Host: localhost:12306
+-=Accept-Encoding: gzip,deflate
+-=
+-=>11 Mar 2020 01:27:22 [pool-1-thread-3] INFO  Response return:
+-=
+-=HTTP/1.1 200
+-=Content-Length: 26
+-=.Content-Type: application/json; charset=utf-8
+-=
+-={"code":2,"message":"bar"}
+-=
+-=911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+?>D11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+?>?11 Mar 2020 01:27:22 [pool-1-thread-5] INFO  Request received:
+?>
+?>GET /redirect HTTP/1.1
+?>content-length: 0
+?>Connection: Keep-Alive
+?>3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+?>Host: localhost:12306
+?>Accept-Encoding: gzip,deflate
+?>
+?>>11 Mar 2020 01:27:22 [pool-1-thread-5] INFO  Response return:
+?>
+?>HTTP/1.1 302
+?>,Location: http://localhost:12306/redirectTo
+?>
+?>?11 Mar 2020 01:27:22 [pool-1-thread-5] INFO  Request received:
+?>
+?>GET /redirectTo HTTP/1.1
+?>content-length: 0
+?>Connection: Keep-Alive
+?>3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+?>Host: localhost:12306
+?>Accept-Encoding: gzip,deflate
+?>
+?>>11 Mar 2020 01:27:22 [pool-1-thread-5] INFO  Response return:
+?>
+?>HTTP/1.1 200
+?>Content-Length: 3
+?>(Content-Type: text/plain; charset=utf-8
+?>
+?>foo
+?>
+?>911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+?@D11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+?@?11 Mar 2020 01:27:22 [pool-1-thread-2] INFO  Request received:
+?@
+?@*GET /redirect-with-path-resource HTTP/1.1
+?@content-length: 0
+?@Connection: Keep-Alive
+?@3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+?@Host: localhost:12306
+?@Accept-Encoding: gzip,deflate
+?@
+?@>11 Mar 2020 01:27:22 [pool-1-thread-2] INFO  Response return:
+?@
+?@HTTP/1.1 302
+?@,Location: http://localhost:12306/redirectTo
+?@
+?@?11 Mar 2020 01:27:22 [pool-1-thread-2] INFO  Request received:
+?@
+?@GET /redirectTo HTTP/1.1
+?@content-length: 0
+?@Connection: Keep-Alive
+?@3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+?@Host: localhost:12306
+?@Accept-Encoding: gzip,deflate
+?@
+?@>11 Mar 2020 01:27:22 [pool-1-thread-2] INFO  Response return:
+?@
+?@HTTP/1.1 200
+?@Content-Length: 3
+?@(Content-Type: text/plain; charset=utf-8
+?@
+?@foo
+?@
+?@911 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+?AD11 Mar 2020 01:27:22 [Test worker] INFO  Server is started at 12306
+?A?11 Mar 2020 01:27:22 [pool-1-thread-2] INFO  Request received:
+?A
+?A%GET /redirect-with-template HTTP/1.1
+?Acontent-length: 0
+?AConnection: Keep-Alive
+?A3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+?AHost: localhost:12306
+?AAccept-Encoding: gzip,deflate
+?A
+?A>11 Mar 2020 01:27:23 [pool-1-thread-2] INFO  Response return:
+?A
+?AHTTP/1.1 302
+?A,Location: http://localhost:12306/redirectTo
+?A
+?A?11 Mar 2020 01:27:23 [pool-1-thread-2] INFO  Request received:
+?A
+?AGET /redirectTo HTTP/1.1
+?Acontent-length: 0
+?AConnection: Keep-Alive
+?A3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+?AHost: localhost:12306
+?AAccept-Encoding: gzip,deflate
+?A
+?A>11 Mar 2020 01:27:23 [pool-1-thread-2] INFO  Response return:
+?A
+?AHTTP/1.1 200
+?AContent-Length: 3
+?A(Content-Type: text/plain; charset=utf-8
+?A
+?Afoo
+?A
+?A911 Mar 2020 01:27:23 [Test worker] INFO  Server stopped.
+CBD11 Mar 2020 01:27:23 [Test worker] INFO  Server is started at 12306
+CB?11 Mar 2020 01:27:23 [pool-1-thread-5] INFO  Request received:
+CB
+CBGET /cycle-json HTTP/1.1
+CBcontent-length: 0
+CBConnection: Keep-Alive
+CB3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+CBHost: localhost:12306
+CBAccept-Encoding: gzip,deflate
+CB
+CB>11 Mar 2020 01:27:23 [pool-1-thread-5] INFO  Response return:
+CB
+CBHTTP/1.1 200
+CBContent-Length: 13
+CB.Content-Type: application/json; charset=utf-8
+CB
+CB{"foo":"bar"}
+CB
+CB?11 Mar 2020 01:27:23 [pool-1-thread-5] INFO  Request received:
+CB
+CBGET /cycle-json HTTP/1.1
+CBcontent-length: 0
+CBConnection: Keep-Alive
+CB3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+CBHost: localhost:12306
+CBAccept-Encoding: gzip,deflate
+CB
+CB>11 Mar 2020 01:27:23 [pool-1-thread-5] INFO  Response return:
+CB
+CBHTTP/1.1 200
+CBContent-Length: 17
+CB.Content-Type: application/json; charset=utf-8
+CB
+CB{"hello":"world"}
+CB
+CB?11 Mar 2020 01:27:23 [pool-1-thread-5] INFO  Request received:
+CB
+CBGET /cycle-json HTTP/1.1
+CBcontent-length: 0
+CBConnection: Keep-Alive
+CB3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+CBHost: localhost:12306
+CBAccept-Encoding: gzip,deflate
+CB
+CB>11 Mar 2020 01:27:23 [pool-1-thread-5] INFO  Response return:
+CB
+CBHTTP/1.1 200
+CBContent-Length: 13
+CB.Content-Type: application/json; charset=utf-8
+CB
+CB{"foo":"bar"}
+CB
+CB911 Mar 2020 01:27:23 [Test worker] INFO  Server stopped.
+CDD11 Mar 2020 01:27:23 [Test worker] INFO  Server is started at 12306
+CD@11 Mar 2020 01:27:23 [pool-1-thread-10] INFO  Request received:
+CD
+CDGET /cycle HTTP/1.1
+CDcontent-length: 0
+CDConnection: Keep-Alive
+CD3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+CDHost: localhost:12306
+CDAccept-Encoding: gzip,deflate
+CD
+CD?11 Mar 2020 01:27:23 [pool-1-thread-10] INFO  Response return:
+CD
+CDHTTP/1.1 200
+CDContent-Length: 3
+CD(Content-Type: text/plain; charset=utf-8
+CD
+CDfoo
+CD
+CD@11 Mar 2020 01:27:23 [pool-1-thread-10] INFO  Request received:
+CD
+CDGET /cycle HTTP/1.1
+CDcontent-length: 0
+CDConnection: Keep-Alive
+CD3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+CDHost: localhost:12306
+CDAccept-Encoding: gzip,deflate
+CD
+CD?11 Mar 2020 01:27:23 [pool-1-thread-10] INFO  Response return:
+CD
+CDHTTP/1.1 200
+CDContent-Length: 3
+CD(Content-Type: text/plain; charset=utf-8
+CD
+CDbar
+CD
+CD@11 Mar 2020 01:27:23 [pool-1-thread-10] INFO  Request received:
+CD
+CDGET /cycle HTTP/1.1
+CDcontent-length: 0
+CDConnection: Keep-Alive
+CD3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+CDHost: localhost:12306
+CDAccept-Encoding: gzip,deflate
+CD
+CD?11 Mar 2020 01:27:23 [pool-1-thread-10] INFO  Response return:
+CD
+CDHTTP/1.1 200
+CDContent-Length: 3
+CD(Content-Type: text/plain; charset=utf-8
+CD
+CDfoo
+CD
+CD911 Mar 2020 01:27:23 [Test worker] INFO  Server stopped.
+FED11 Mar 2020 01:27:23 [Test worker] INFO  Server is started at 12306
+FE?11 Mar 2020 01:27:23 [pool-1-thread-2] INFO  Request received:
+FE
+FEGET /query-match HTTP/1.1
+FEcontent-length: 0
+FEConnection: Keep-Alive
+FE3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+FEHost: localhost:12306
+FEAccept-Encoding: gzip,deflate
+FE
+FE>11 Mar 2020 01:27:23 [pool-1-thread-2] INFO  Response return:
+FE
+FEHTTP/1.1 200
+FEContent-Length: 11
+FE(Content-Type: text/plain; charset=utf-8
+FE
+FEquery_match
+FE
+FE?11 Mar 2020 01:27:23 [pool-1-thread-2] INFO  Request received:
+FE
+FEGET /query-match HTTP/1.1
+FEcontent-length: 0
+FEConnection: Keep-Alive
+FE3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+FEHost: localhost:12306
+FEAccept-Encoding: gzip,deflate
+FE
+FE>11 Mar 2020 01:27:23 [pool-1-thread-2] INFO  Response return:
+FE
+FEHTTP/1.1 200
+FEContent-Length: 11
+FE(Content-Type: text/plain; charset=utf-8
+FE
+FEquery_match
+FE
+FE911 Mar 2020 01:27:23 [Test worker] INFO  Server stopped.
+FGD11 Mar 2020 01:27:23 [Test worker] INFO  Server is started at 12306
+FG?11 Mar 2020 01:27:23 [pool-1-thread-2] INFO  Request received:
+FG
+FGGET /bar/foo HTTP/1.1
+FGcontent-length: 0
+FGConnection: Keep-Alive
+FG3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+FGHost: localhost:12306
+FGAccept-Encoding: gzip,deflate
+FG
+FG>11 Mar 2020 01:27:23 [pool-1-thread-2] INFO  Response return:
+FG
+FGHTTP/1.1 200
+FGContent-Length: 9
+FG(Content-Type: text/plain; charset=utf-8
+FG
+FG
+uri_match
+FG
+FG?11 Mar 2020 01:27:23 [pool-1-thread-2] INFO  Request received:
+FG
+FGGET /blah/foo HTTP/1.1
+FGcontent-length: 0
+FGConnection: Keep-Alive
+FG3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+FGHost: localhost:12306
+FGAccept-Encoding: gzip,deflate
+FG
+FG>11 Mar 2020 01:27:23 [pool-1-thread-2] INFO  Response return:
+FG
+FGHTTP/1.1 200
+FGContent-Length: 9
+FG(Content-Type: text/plain; charset=utf-8
+FG
+FG
+uri_match
+FG
+FG911 Mar 2020 01:27:23 [Test worker] INFO  Server stopped.
+FHD11 Mar 2020 01:27:23 [Test worker] INFO  Server is started at 12306
+FH?11 Mar 2020 01:27:23 [pool-1-thread-2] INFO  Request received:
+FH
+FHGET /header-match HTTP/1.1
+FHcontent-length: 0
+FHConnection: Keep-Alive
+FH3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+FHHost: localhost:12306
+FHAccept-Encoding: gzip,deflate
+FHContent-Type: application/json
+FH
+FH>11 Mar 2020 01:27:23 [pool-1-thread-2] INFO  Response return:
+FH
+FHHTTP/1.1 200
+FHContent-Length: 12
+FH(Content-Type: text/plain; charset=utf-8
+FH
+FHheader_match
+FH
+FH?11 Mar 2020 01:27:23 [pool-1-thread-2] INFO  Request received:
+FH
+FHGET /header-match HTTP/1.1
+FHcontent-length: 0
+FHConnection: Keep-Alive
+FH3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+FHHost: localhost:12306
+FHAccept-Encoding: gzip,deflate
+FHContent-Type: application/xml
+FH
+FH>11 Mar 2020 01:27:23 [pool-1-thread-2] INFO  Response return:
+FH
+FHHTTP/1.1 200
+FHContent-Length: 12
+FH(Content-Type: text/plain; charset=utf-8
+FH
+FHheader_match
+FH
+FH911 Mar 2020 01:27:23 [Test worker] INFO  Server stopped.
+FID11 Mar 2020 01:27:23 [Test worker] INFO  Server is started at 12306
+FI?11 Mar 2020 01:27:23 [pool-1-thread-9] INFO  Request received:
+FI
+FIGET /method-match HTTP/1.1
+FIcontent-length: 0
+FIConnection: Keep-Alive
+FI3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+FIHost: localhost:12306
+FIAccept-Encoding: gzip,deflate
+FI
+FI>11 Mar 2020 01:27:23 [pool-1-thread-9] INFO  Response return:
+FI
+FIHTTP/1.1 200
+FIContent-Length: 12
+FI(Content-Type: text/plain; charset=utf-8
+FI
+FImethod_match
+FI
+FI?11 Mar 2020 01:27:23 [pool-1-thread-9] INFO  Request received:
+FI
+FIPOST /method-match HTTP/1.1
+FIConnection: Keep-Alive
+FI3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+FIHost: localhost:12306
+FIAccept-Encoding: gzip,deflate
+FIContent-Length: 4
+FI(Content-Type: text/plain; charset=UTF-8
+FI
+FIblah
+FI
+FI>11 Mar 2020 01:27:23 [pool-1-thread-9] INFO  Response return:
+FI
+FIHTTP/1.1 200
+FIContent-Length: 12
+FI(Content-Type: text/plain; charset=utf-8
+FI
+FImethod_match
+FI
+FI911 Mar 2020 01:27:23 [Test worker] INFO  Server stopped.
+FJD11 Mar 2020 01:27:23 [Test worker] INFO  Server is started at 12306
+FJ?11 Mar 2020 01:27:23 [pool-1-thread-2] INFO  Request received:
+FJ
+FJPOST /text-match HTTP/1.1
+FJConnection: Keep-Alive
+FJ3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+FJHost: localhost:12306
+FJAccept-Encoding: gzip,deflate
+FJContent-Length: 6
+FJ(Content-Type: text/plain; charset=UTF-8
+FJ
+FJbarfoo
+FJ
+FJ>11 Mar 2020 01:27:23 [pool-1-thread-2] INFO  Response return:
+FJ
+FJHTTP/1.1 200
+FJContent-Length: 10
+FJ(Content-Type: text/plain; charset=utf-8
+FJ
+FJtext_match
+FJ
+FJ?11 Mar 2020 01:27:23 [pool-1-thread-2] INFO  Request received:
+FJ
+FJPOST /text-match HTTP/1.1
+FJConnection: Keep-Alive
+FJ3User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+FJHost: localhost:12306
+FJAccept-Encoding: gzip,deflate
+FJContent-Length: 7
+FJ(Content-Type: text/plain; charset=UTF-8
+FJ
+FJblahfoo
+FJ
+FJ>11 Mar 2020 01:27:23 [pool-1-thread-2] INFO  Response return:
+FJ
+FJHTTP/1.1 200
+FJContent-Length: 10
+FJ(Content-Type: text/plain; charset=utf-8
+FJ
+FJtext_match
+FJ
+FJ911 Mar 2020 01:27:23 [Test worker] INFO  Server stopped.
+LKD11 Mar 2020 01:27:23 [Test worker] INFO  Server is started at 12306
+ cf^Mar 11, 2020 1:27:34 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+ cf¢WARNING: Cookie rejected [login="true", version:0, domain:github.com, path:/, expiry:null] Illegal 'domain' attribute "github.com". Domain of origin: "localhost"

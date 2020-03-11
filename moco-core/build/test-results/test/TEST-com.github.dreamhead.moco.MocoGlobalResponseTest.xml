@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoGlobalResponseTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:26" hostname="ubuntu" time="1.123">
+  <properties/>
+  <testcase name="should_return_all_response_for_and_response_handler_with_header" classname="com.github.dreamhead.moco.MocoGlobalResponseTest" time="0.017"/>
+  <testcase name="should_return_all_response_for_content_with_header" classname="com.github.dreamhead.moco.MocoGlobalResponseTest" time="0.011"/>
+  <testcase name="should_return_all_response_for_latency_with_header" classname="com.github.dreamhead.moco.MocoGlobalResponseTest" time="1.017"/>
+  <testcase name="should_return_all_response_for_seq_with_header" classname="com.github.dreamhead.moco.MocoGlobalResponseTest" time="0.022"/>
+  <testcase name="should_return_all_response_for_status_with_header" classname="com.github.dreamhead.moco.MocoGlobalResponseTest" time="0.013"/>
+  <testcase name="should_return_all_response_for_version_with_header" classname="com.github.dreamhead.moco.MocoGlobalResponseTest" time="0.01"/>
+  <testcase name="should_return_all_response_for_mount_with_header" classname="com.github.dreamhead.moco.MocoGlobalResponseTest" time="0.013"/>
+  <testcase name="should_return_all_response_for_header_with_header" classname="com.github.dreamhead.moco.MocoGlobalResponseTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

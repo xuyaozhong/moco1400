@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.util.GlobsTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:35" hostname="ubuntu" time="0.063">
+  <properties/>
+  <testcase name="should_glob_absolute_files_with_glob" classname="com.github.dreamhead.moco.util.GlobsTest" time="0.005"/>
+  <testcase name="should_glob_files" classname="com.github.dreamhead.moco.util.GlobsTest" time="0.051"/>
+  <testcase name="should_glob_relative_files" classname="com.github.dreamhead.moco.util.GlobsTest" time="0.002"/>
+  <testcase name="should_glob_absolute_files" classname="com.github.dreamhead.moco.util.GlobsTest" time="0.001"/>
+  <testcase name="should_glob_direct_files" classname="com.github.dreamhead.moco.util.GlobsTest" time="0.001"/>
+  <testcase name="should_throw_exception_for_unknown_root" classname="com.github.dreamhead.moco.util.GlobsTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

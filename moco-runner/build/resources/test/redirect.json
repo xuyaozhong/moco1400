@@ -1,0 +1,45 @@
+[
+    {
+        "request" :
+        {
+            "uri" : "/redirectTo"
+        },
+        "response" :
+        {
+            "text" : "foo"
+        }
+    },
+    {
+        "request" :
+        {
+            "uri" : "/redirect"
+        },
+
+        "redirectTo" : "http://localhost:12306/redirectTo"
+    },
+    {
+        "request" :
+        {
+            "uri" : "/redirect-with-template"
+        },
+
+        "redirectTo" : {
+            "template" : {
+                "with" : "${url}",
+                "vars" : {
+                    "url" : "http://localhost:12306/redirectTo"
+                }
+            }
+        }
+    },
+    {
+        "request" :
+        {
+            "uri" : "/redirect-with-path-resource"
+        },
+
+        "redirectTo" : {
+            "path_resource": "redirect.url"
+        }
+    }
+]

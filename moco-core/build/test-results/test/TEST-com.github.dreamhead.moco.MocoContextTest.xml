@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoContextTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:30" hostname="ubuntu" time="0.045">
+  <properties/>
+  <testcase name="should_throw_exception_without_context" classname="com.github.dreamhead.moco.MocoContextTest" time="0.009"/>
+  <testcase name="should_throw_exception_without_context_for_any_response_handler" classname="com.github.dreamhead.moco.MocoContextTest" time="0.007"/>
+  <testcase name="should_have_context_even_if_there_is_no_context_configured" classname="com.github.dreamhead.moco.MocoContextTest" time="0.007"/>
+  <testcase name="should_config_context" classname="com.github.dreamhead.moco.MocoContextTest" time="0.012"/>
+  <testcase name="should_mount_correctly" classname="com.github.dreamhead.moco.MocoContextTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoStandaloneTest" tests="31" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:27:35" hostname="ubuntu" time="2.358">
+  <properties/>
+  <testcase name="should_expected_composite_response" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.01"/>
+  <testcase name="should_return_expected_response_based_on_specified_header_request" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.008"/>
+  <testcase name="should_return_expected_response_with_text_based_on_specified_uri" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.01"/>
+  <testcase name="should_return_expected_response_with_file_and_charset" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.011"/>
+  <testcase name="should_throw_exception_for_different_query_param" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.008"/>
+  <testcase name="should_return_expected_response_based_on_specified_delete_request" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.007"/>
+  <testcase name="should_return_expected_response_with_file_based_on_specified_request" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.011"/>
+  <testcase name="should_have_favicon" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.013"/>
+  <testcase name="should_match_form_value" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.008"/>
+  <testcase name="should_return_expected_response_based_on_specified_put_request" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.007"/>
+  <testcase name="should_return_expected_response_based_on_specified_query_request" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.007"/>
+  <testcase name="should_return_expected_response_based_on_specified_multi_query_request" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.008"/>
+  <testcase name="should_return_expected_response" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.011"/>
+  <testcase name="should_return_expected_response_with_path_resource_and_charset" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.008"/>
+  <testcase name="should_wait_for_awhile_with_unit" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="1.015"/>
+  <testcase name="should_throw_exception_while_request_non_post_request" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.014"/>
+  <testcase name="should_throw_exception_for_unknown_header" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.009"/>
+  <testcase name="should_expected_response_status_code" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.009"/>
+  <testcase name="should_run_as_proxy" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.026"/>
+  <testcase name="should_wait_for_awhile" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="1.012"/>
+  <testcase name="should_expected_response_header" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.016"/>
+  <testcase name="should_return_expected_response_with_file" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.012"/>
+  <testcase name="should_return_expected_response_based_on_specified_file_request" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.01"/>
+  <testcase name="should_throw_exception_while_request_non_get_request" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.008"/>
+  <testcase name="should_return_expected_response_based_on_specified_version" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.009"/>
+  <testcase name="should_throw_exception_for_different_query_param_value" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.007"/>
+  <testcase name="should_return_expected_response_based_on_specified_empty_query_request" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.008"/>
+  <testcase name="should_return_specified_version_for_request" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.008"/>
+  <testcase name="should_return_expected_response_based_on_specified_post_request" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.007"/>
+  <testcase name="should_return_expected_response_based_on_specified_get_request" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.006"/>
+  <testcase name="should_return_expected_response_based_on_specified_text_request" classname="com.github.dreamhead.moco.MocoStandaloneTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

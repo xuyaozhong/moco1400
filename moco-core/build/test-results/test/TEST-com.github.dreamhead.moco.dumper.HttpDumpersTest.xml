@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.dumper.HttpDumpersTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:35" hostname="ubuntu" time="0.006">
+  <properties/>
+  <testcase name="should_parse_plain_xml_media_type" classname="com.github.dreamhead.moco.dumper.HttpDumpersTest" time="0.001"/>
+  <testcase name="should_not_parse_content_when_content_length_not_set" classname="com.github.dreamhead.moco.dumper.HttpDumpersTest" time="0.0"/>
+  <testcase name="should_parse_complete_xml_media_type" classname="com.github.dreamhead.moco.dumper.HttpDumpersTest" time="0.0"/>
+  <testcase name="should_parse_content_when_content_length_not_set" classname="com.github.dreamhead.moco.dumper.HttpDumpersTest" time="0.001"/>
+  <testcase name="should_parse_plain_javascript_media_type" classname="com.github.dreamhead.moco.dumper.HttpDumpersTest" time="0.0"/>
+  <testcase name="should_parse_complete_javascript_media_type" classname="com.github.dreamhead.moco.dumper.HttpDumpersTest" time="0.0"/>
+  <testcase name="should_parse_plain_text_media_type" classname="com.github.dreamhead.moco.dumper.HttpDumpersTest" time="0.0"/>
+  <testcase name="should_parse_complete_text_media_type" classname="com.github.dreamhead.moco.dumper.HttpDumpersTest" time="0.0"/>
+  <testcase name="should_not_parse_binary_media_type" classname="com.github.dreamhead.moco.dumper.HttpDumpersTest" time="0.0"/>
+  <testcase name="should_parse_plain_json_media_type" classname="com.github.dreamhead.moco.dumper.HttpDumpersTest" time="0.001"/>
+  <testcase name="should_parse_complete_json_media_type" classname="com.github.dreamhead.moco.dumper.HttpDumpersTest" time="0.0"/>
+  <testcase name="should_parse_complete_form_urlencoded_media_type" classname="com.github.dreamhead.moco.dumper.HttpDumpersTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

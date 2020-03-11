@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoXmlTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:36" hostname="ubuntu" time="0.101">
+  <properties/>
+  <testcase name="should_not_return_anything_for_mismatch_xpath" classname="com.github.dreamhead.moco.MocoXmlTest" time="0.008"/>
+  <testcase name="should_return_content_based_on_xpath" classname="com.github.dreamhead.moco.MocoXmlTest" time="0.015"/>
+  <testcase name="should_return_content_based_on_xpath_with_many_elements" classname="com.github.dreamhead.moco.MocoXmlTest" time="0.008"/>
+  <testcase name="should_not_return_anything_for_unknown_xpath" classname="com.github.dreamhead.moco.MocoXmlTest" time="0.009"/>
+  <testcase name="should_match_xml" classname="com.github.dreamhead.moco.MocoXmlTest" time="0.012"/>
+  <testcase name="should_match_exact_xml" classname="com.github.dreamhead.moco.MocoXmlTest" time="0.01"/>
+  <testcase name="should_throw_exception_for_unknown_content" classname="com.github.dreamhead.moco.MocoXmlTest" time="0.017"/>
+  <testcase name="should_match_xml_with_resource" classname="com.github.dreamhead.moco.MocoXmlTest" time="0.009"/>
+  <testcase name="should_return_content_based_on_xpath_existing" classname="com.github.dreamhead.moco.MocoXmlTest" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Fatal Error] :1:1: Content is not allowed in prolog.
+]]></system-err>
+</testsuite>

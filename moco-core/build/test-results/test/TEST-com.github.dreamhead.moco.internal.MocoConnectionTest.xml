@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.internal.MocoConnectionTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:35" hostname="ubuntu" time="0.026">
+  <properties/>
+  <testcase name="should_not_have_keep_alive_header_for_1_1_keep_alive_request" classname="com.github.dreamhead.moco.internal.MocoConnectionTest" time="0.009"/>
+  <testcase name="should_not_keep_alive_for_close_request" classname="com.github.dreamhead.moco.internal.MocoConnectionTest" time="0.011"/>
+  <testcase name="should_keep_alive_for_1_0_keep_alive_request" classname="com.github.dreamhead.moco.internal.MocoConnectionTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

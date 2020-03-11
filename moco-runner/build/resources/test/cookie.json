@@ -1,0 +1,80 @@
+[
+  {
+    "request": {
+      "uri": "/cookie"
+    },
+    "response": {
+      "cookies": {
+        "login": "true"
+      }
+    }
+  },
+  {
+    "request": {
+      "uri": "/cookie-with-path"
+    },
+    "response": {
+      "cookies": {
+        "login": {
+          "value": "true",
+          "path": "/"
+        }
+      }
+    }
+  },
+  {
+    "request": {
+      "uri": "/cookie-with-domain"
+    },
+    "response": {
+      "cookies": {
+        "login": {
+          "value": "true",
+          "domain": "github.com"
+        }
+      }
+    }
+  },
+  {
+    "request": {
+      "uri": "/cookie-with-secure"
+    },
+    "response": {
+      "cookies": {
+        "login": {
+          "value": "true",
+          "secure": "true"
+        }
+      }
+    }
+  },
+  {
+    "request": {
+      "uri": "/cookie-with-http-only"
+    },
+    "response": {
+      "cookies": {
+        "login": {
+          "value": "true",
+          "httpOnly": "true"
+        }
+      }
+    }
+  },
+  {
+    "request": {
+      "uri": "/cookie-with-max-age"
+    },
+    "response": {
+      "cookies": {
+        "login": {
+          "value": "true",
+          "maxAge": {
+            "duration": 1,
+            "unit": "hour"
+          }
+        }
+      }
+    }
+  }
+]

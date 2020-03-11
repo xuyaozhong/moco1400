@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoEventStandaloneTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:27:23" hostname="ubuntu" time="11.044">
+  <properties/>
+  <testcase name="should_fire_event_with_post_url_template" classname="com.github.dreamhead.moco.MocoEventStandaloneTest" time="1.232"/>
+  <testcase name="should_fire_event_with_unit" classname="com.github.dreamhead.moco.MocoEventStandaloneTest" time="1.226"/>
+  <testcase name="should_fire_event_with_post_content_template" classname="com.github.dreamhead.moco.MocoEventStandaloneTest" time="1.225"/>
+  <testcase name="should_fire_event" classname="com.github.dreamhead.moco.MocoEventStandaloneTest" time="1.224"/>
+  <testcase name="should_fire_event_with_get_for_header" classname="com.github.dreamhead.moco.MocoEventStandaloneTest" time="1.225"/>
+  <testcase name="should_fire_get_event" classname="com.github.dreamhead.moco.MocoEventStandaloneTest" time="1.224"/>
+  <testcase name="should_fire_event_with_post_json" classname="com.github.dreamhead.moco.MocoEventStandaloneTest" time="1.224"/>
+  <testcase name="should_fire_get_event_with_template" classname="com.github.dreamhead.moco.MocoEventStandaloneTest" time="1.223"/>
+  <testcase name="should_fire_event_with_post_for_header" classname="com.github.dreamhead.moco.MocoEventStandaloneTest" time="1.224"/>
+  <system-out><![CDATA[11 Mar 2020 01:27:23 [Test worker] INFO  Server is started at 12306
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

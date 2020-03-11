@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.runner.DynamicSettingRunnerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:51" hostname="ubuntu" time="13.247">
+  <properties/>
+  <testcase name="should_reload_configuration" classname="com.github.dreamhead.moco.runner.DynamicSettingRunnerTest" time="5.087"/>
+  <testcase name="should_load_configuration" classname="com.github.dreamhead.moco.runner.DynamicSettingRunnerTest" time="1.042"/>
+  <testcase name="should_reload_configuration_with_multiple_modification" classname="com.github.dreamhead.moco.runner.DynamicSettingRunnerTest" time="6.071"/>
+  <testcase name="should_load_glob_configuration" classname="com.github.dreamhead.moco.runner.DynamicSettingRunnerTest" time="1.04"/>
+  <system-out><![CDATA[11 Mar 2020 01:26:51 [Test worker] INFO  Server is started at 12306
+11 Mar 2020 01:26:53 [Test worker] INFO  Shutdown port is 9090
+11 Mar 2020 01:26:53 [pool-1-thread-5] INFO  Request received:
+
+GET / HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+11 Mar 2020 01:26:53 [pool-1-thread-5] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 3
+Content-Type: text/plain; charset=utf-8
+
+foo
+
+11 Mar 2020 01:26:53 [pool-1-thread-1] INFO  config.json change detected.
+11 Mar 2020 01:26:53 [pool-1-thread-1] INFO  Server stopped.
+11 Mar 2020 01:26:53 [pool-1-thread-1] INFO  Server is started at 12306
+11 Mar 2020 01:26:56 [pool-1-thread-4] INFO  Request received:
+
+GET / HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+11 Mar 2020 01:26:56 [pool-1-thread-4] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 6
+Content-Type: text/plain; charset=utf-8
+
+foobar
+
+11 Mar 2020 01:26:56 [Test worker] INFO  Server stopped.
+11 Mar 2020 01:26:56 [Test worker] INFO  Server is started at 12306
+11 Mar 2020 01:26:57 [Test worker] INFO  Shutdown port is 9090
+11 Mar 2020 01:26:57 [pool-1-thread-8] INFO  Request received:
+
+GET / HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+11 Mar 2020 01:26:57 [pool-1-thread-8] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 3
+Content-Type: text/plain; charset=utf-8
+
+foo
+
+11 Mar 2020 01:26:57 [Test worker] INFO  Server stopped.
+11 Mar 2020 01:26:57 [Test worker] INFO  Server is started at 12306
+11 Mar 2020 01:27:00 [Test worker] INFO  Shutdown port is 9090
+11 Mar 2020 01:27:00 [pool-1-thread-9] INFO  Request received:
+
+GET /foo HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+11 Mar 2020 01:27:00 [pool-1-thread-9] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 3
+Content-Type: text/plain; charset=utf-8
+
+foo
+
+11 Mar 2020 01:27:00 [pool-1-thread-9] INFO  Request received:
+
+GET /bar HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+11 Mar 2020 01:27:00 [pool-1-thread-9] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 3
+Content-Type: text/plain; charset=utf-8
+
+bar
+
+11 Mar 2020 01:27:03 [pool-1-thread-10] INFO  Request received:
+
+GET /foo HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+11 Mar 2020 01:27:03 [pool-1-thread-10] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 4
+Content-Type: text/plain; charset=utf-8
+
+foo1
+
+11 Mar 2020 01:27:03 [Test worker] INFO  Server stopped.
+11 Mar 2020 01:27:03 [Test worker] INFO  Server is started at 12306
+11 Mar 2020 01:27:04 [Test worker] INFO  Shutdown port is 9090
+11 Mar 2020 01:27:04 [pool-1-thread-11] INFO  Request received:
+
+GET / HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+11 Mar 2020 01:27:04 [pool-1-thread-11] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 3
+Content-Type: text/plain; charset=utf-8
+
+foo
+
+11 Mar 2020 01:27:04 [Test worker] INFO  Server stopped.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

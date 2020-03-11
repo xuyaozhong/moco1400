@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoExistTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:27:37" hostname="ubuntu" time="0.054">
+  <properties/>
+  <testcase name="should_not_exist_text" classname="com.github.dreamhead.moco.MocoExistTest" time="0.01"/>
+  <testcase name="should_match_query" classname="com.github.dreamhead.moco.MocoExistTest" time="0.009"/>
+  <testcase name="should_not_match_header" classname="com.github.dreamhead.moco.MocoExistTest" time="0.008"/>
+  <testcase name="should_exist_text" classname="com.github.dreamhead.moco.MocoExistTest" time="0.013"/>
+  <testcase name="should_match_header" classname="com.github.dreamhead.moco.MocoExistTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

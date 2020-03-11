@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.runner.ShutdownWatcherRunnerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:27:08" hostname="ubuntu" time="13.272">
+  <properties/>
+  <testcase name="should_stop_runner_directly" classname="com.github.dreamhead.moco.runner.ShutdownWatcherRunnerTest" time="1.093"/>
+  <testcase name="should_shutdown_runner_by_socket" classname="com.github.dreamhead.moco.runner.ShutdownWatcherRunnerTest" time="4.044"/>
+  <testcase name="should_shutdown_with_shutdown_port" classname="com.github.dreamhead.moco.runner.ShutdownWatcherRunnerTest" time="4.052"/>
+  <testcase name="should_stop_runner_via_shutdown_task" classname="com.github.dreamhead.moco.runner.ShutdownWatcherRunnerTest" time="4.074"/>
+  <system-out><![CDATA[11 Mar 2020 01:27:09 [Test worker] INFO  Server is started at 12306
+11 Mar 2020 01:27:10 [Test worker] INFO  Shutdown port is 9527
+11 Mar 2020 01:27:10 [pool-1-thread-1] INFO  Request received:
+
+GET / HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+11 Mar 2020 01:27:10 [pool-1-thread-1] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 3
+Content-Type: text/plain; charset=utf-8
+
+foo
+
+11 Mar 2020 01:27:10 [Test worker] INFO  Server stopped.
+11 Mar 2020 01:27:10 [Test worker] INFO  Server stopped.
+11 Mar 2020 01:27:10 [Test worker] INFO  Server is started at 12306
+11 Mar 2020 01:27:11 [Test worker] INFO  Shutdown port is 9527
+11 Mar 2020 01:27:11 [pool-1-thread-9] INFO  Request received:
+
+GET / HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+11 Mar 2020 01:27:11 [pool-1-thread-9] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 3
+Content-Type: text/plain; charset=utf-8
+
+foo
+
+11 Mar 2020 01:27:11 [pool-1-thread-8] INFO  Server stopped.
+11 Mar 2020 01:27:14 [Test worker] INFO  Server stopped.
+11 Mar 2020 01:27:14 [Test worker] INFO  Server is started at 12306
+11 Mar 2020 01:27:15 [Test worker] INFO  Shutdown port is 34201
+11 Mar 2020 01:27:15 [pool-1-thread-9] INFO  Request received:
+
+GET / HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+11 Mar 2020 01:27:15 [pool-1-thread-9] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 3
+Content-Type: text/plain; charset=utf-8
+
+foo
+
+11 Mar 2020 01:27:15 [pool-1-thread-7] INFO  Server stopped.
+11 Mar 2020 01:27:18 [Test worker] INFO  Server stopped.
+11 Mar 2020 01:27:18 [Test worker] INFO  Server is started at 12306
+11 Mar 2020 01:27:19 [Test worker] INFO  Shutdown port is 9527
+11 Mar 2020 01:27:19 [pool-1-thread-10] INFO  Request received:
+
+GET / HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+11 Mar 2020 01:27:19 [pool-1-thread-10] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 3
+Content-Type: text/plain; charset=utf-8
+
+foo
+
+11 Mar 2020 01:27:19 [pool-1-thread-9] INFO  Server stopped.
+11 Mar 2020 01:27:22 [Test worker] INFO  Server stopped.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

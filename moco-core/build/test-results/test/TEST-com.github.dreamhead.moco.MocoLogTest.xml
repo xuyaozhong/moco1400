@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoLogTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:30" hostname="ubuntu" time="0.05">
+  <properties/>
+  <testcase name="should_log_request_and_response_into_file" classname="com.github.dreamhead.moco.MocoLogTest" time="0.012"/>
+  <testcase name="should_log_request_and_response_with_exception" classname="com.github.dreamhead.moco.MocoLogTest" time="0.016"/>
+  <testcase name="should_log_request_and_response_into_file_with_charset" classname="com.github.dreamhead.moco.MocoLogTest" time="0.011"/>
+  <testcase name="should_log_request_and_response" classname="com.github.dreamhead.moco.MocoLogTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

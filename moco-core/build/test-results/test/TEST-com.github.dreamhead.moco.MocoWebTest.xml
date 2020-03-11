@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoWebTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:34" hostname="ubuntu" time="0.124">
+  <properties/>
+  <testcase name="should_redirect_to_expected_url" classname="com.github.dreamhead.moco.MocoWebTest" time="0.008"/>
+  <testcase name="should_set_and_recognize_cookie_with_httponly" classname="com.github.dreamhead.moco.MocoWebTest" time="0.015"/>
+  <testcase name="should_redirect_for_any_response" classname="com.github.dreamhead.moco.MocoWebTest" time="0.008"/>
+  <testcase name="should_match_form_value" classname="com.github.dreamhead.moco.MocoWebTest" time="0.028"/>
+  <testcase name="should_no_exception_form_get_request" classname="com.github.dreamhead.moco.MocoWebTest" time="0.006"/>
+  <testcase name="should_set_and_recognize_cookie_with_path" classname="com.github.dreamhead.moco.MocoWebTest" time="0.007"/>
+  <testcase name="should_set_and_recognize_cookie_with_max_age" classname="com.github.dreamhead.moco.MocoWebTest" time="0.008"/>
+  <testcase name="should_download_attachment" classname="com.github.dreamhead.moco.MocoWebTest" time="0.007"/>
+  <testcase name="should_set_and_recognize_cookie_with_domain" classname="com.github.dreamhead.moco.MocoWebTest" time="0.006"/>
+  <testcase name="should_match_form_value_with_charset" classname="com.github.dreamhead.moco.MocoWebTest" time="0.012"/>
+  <testcase name="should_set_and_recognize_cookie" classname="com.github.dreamhead.moco.MocoWebTest" time="0.009"/>
+  <testcase name="should_set_and_recognize_cookie_with_secure" classname="com.github.dreamhead.moco.MocoWebTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

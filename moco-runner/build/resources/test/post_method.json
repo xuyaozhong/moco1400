@@ -1,0 +1,13 @@
+[
+   {
+     "request" :
+       {
+        "method" : "post",
+        "uri" : "/post"
+       },
+     "response" :
+       {
+        "text" : "response_for_post_method"
+       }
+   }
+]

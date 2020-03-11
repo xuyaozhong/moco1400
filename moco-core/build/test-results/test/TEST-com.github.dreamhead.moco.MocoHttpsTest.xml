@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoHttpsTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:28" hostname="ubuntu" time="0.668">
+  <properties/>
+  <testcase name="should_return_expected_result_for_specified_request" classname="com.github.dreamhead.moco.MocoHttpsTest" time="0.341"/>
+  <testcase name="should_return_expected_result_with_monitor" classname="com.github.dreamhead.moco.MocoHttpsTest" time="0.079"/>
+  <testcase name="should_return_expected_result_without_port" classname="com.github.dreamhead.moco.MocoHttpsTest" time="0.056"/>
+  <testcase name="should_return_expected_result_with_global_config" classname="com.github.dreamhead.moco.MocoHttpsTest" time="0.063"/>
+  <testcase name="should_return_expected_result" classname="com.github.dreamhead.moco.MocoHttpsTest" time="0.068"/>
+  <testcase name="should_return_expected_result_with_monitor_without_port" classname="com.github.dreamhead.moco.MocoHttpsTest" time="0.059"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

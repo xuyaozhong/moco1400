@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoMountStandaloneTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:27:34" hostname="ubuntu" time="0.066">
+  <properties/>
+  <testcase name="should_mount_dir_to_uri_with_response" classname="com.github.dreamhead.moco.MocoMountStandaloneTest" time="0.015"/>
+  <testcase name="should_return_non_inclusion" classname="com.github.dreamhead.moco.MocoMountStandaloneTest" time="0.009"/>
+  <testcase name="should_mount_dir_to_uri" classname="com.github.dreamhead.moco.MocoMountStandaloneTest" time="0.009"/>
+  <testcase name="should_mount_dir_to_uri_with_include" classname="com.github.dreamhead.moco.MocoMountStandaloneTest" time="0.01"/>
+  <testcase name="should_mount_dir_to_uri_with_exclude" classname="com.github.dreamhead.moco.MocoMountStandaloneTest" time="0.01"/>
+  <testcase name="should_return_exclusion" classname="com.github.dreamhead.moco.MocoMountStandaloneTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

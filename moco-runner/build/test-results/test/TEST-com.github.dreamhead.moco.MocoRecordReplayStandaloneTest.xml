@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoRecordReplayStandaloneTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:27:38" hostname="ubuntu" time="0.163">
+  <properties/>
+  <testcase name="should_return_expected_response_with_modifier_for_header" classname="com.github.dreamhead.moco.MocoRecordReplayStandaloneTest" time="0.03"/>
+  <testcase name="should_return_expected_response_with_modifier" classname="com.github.dreamhead.moco.MocoRecordReplayStandaloneTest" time="0.013"/>
+  <testcase name="should_return_expected_response_with_identifier" classname="com.github.dreamhead.moco.MocoRecordReplayStandaloneTest" time="0.027"/>
+  <testcase name="should_return_expected_response_with_group" classname="com.github.dreamhead.moco.MocoRecordReplayStandaloneTest" time="0.013"/>
+  <testcase name="should_return_expected_response" classname="com.github.dreamhead.moco.MocoRecordReplayStandaloneTest" time="0.018"/>
+  <testcase name="should_return_expected_response_with_tape" classname="com.github.dreamhead.moco.MocoRecordReplayStandaloneTest" time="0.055"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

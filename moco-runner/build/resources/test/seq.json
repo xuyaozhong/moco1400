@@ -1,0 +1,36 @@
+[
+  {
+    "request" : {
+      "uri" : "/seq"
+    },
+    "response": {
+      "seq": [
+          {
+            "text" : "foo"
+          },
+          {
+            "text" : "bar"
+          }
+      ]
+    }
+  },
+  {
+    "request" : {
+      "uri" : "/seq-json"
+    },
+    "response": {
+      "seq": [
+        {
+          "json" : {
+            "foo" : "bar"
+          }
+        },
+        {
+          "json" : {
+            "hello" : "world"
+          }
+        }
+      ]
+    }
+  }
+]

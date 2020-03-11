@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoTemplateStandaloneTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:27:34" hostname="ubuntu" time="0.333">
+  <properties/>
+  <testcase name="should_return_version_from_template" classname="com.github.dreamhead.moco.MocoTemplateStandaloneTest" time="0.075"/>
+  <testcase name="should_return_form_value_from_template" classname="com.github.dreamhead.moco.MocoTemplateStandaloneTest" time="0.032"/>
+  <testcase name="should_return_template_with_extractor" classname="com.github.dreamhead.moco.MocoTemplateStandaloneTest" time="0.01"/>
+  <testcase name="should_return_header_from_template" classname="com.github.dreamhead.moco.MocoTemplateStandaloneTest" time="0.012"/>
+  <testcase name="should_return_content_with_template" classname="com.github.dreamhead.moco.MocoTemplateStandaloneTest" time="0.009"/>
+  <testcase name="should_return_random_with_format_from_template" classname="com.github.dreamhead.moco.MocoTemplateStandaloneTest" time="0.017"/>
+  <testcase name="should_return_json_field_from_template" classname="com.github.dreamhead.moco.MocoTemplateStandaloneTest" time="0.011"/>
+  <testcase name="should_return_cookie_from_template" classname="com.github.dreamhead.moco.MocoTemplateStandaloneTest" time="0.016"/>
+  <testcase name="should_return_random_with_range_and_format_from_template" classname="com.github.dreamhead.moco.MocoTemplateStandaloneTest" time="0.012"/>
+  <testcase name="should_return_now_from_template" classname="com.github.dreamhead.moco.MocoTemplateStandaloneTest" time="0.012"/>
+  <testcase name="should_return_query_value_from_template" classname="com.github.dreamhead.moco.MocoTemplateStandaloneTest" time="0.01"/>
+  <testcase name="should_return_random_with_range_from_template" classname="com.github.dreamhead.moco.MocoTemplateStandaloneTest" time="0.015"/>
+  <testcase name="should_return_random_without_arg_from_template" classname="com.github.dreamhead.moco.MocoTemplateStandaloneTest" time="0.008"/>
+  <testcase name="should_return_content_from_path_resource_template" classname="com.github.dreamhead.moco.MocoTemplateStandaloneTest" time="0.01"/>
+  <testcase name="should_return_template_with_vars" classname="com.github.dreamhead.moco.MocoTemplateStandaloneTest" time="0.009"/>
+  <testcase name="should_return_file_with_template_name" classname="com.github.dreamhead.moco.MocoTemplateStandaloneTest" time="0.029"/>
+  <testcase name="should_return_content_from_file_template" classname="com.github.dreamhead.moco.MocoTemplateStandaloneTest" time="0.025"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

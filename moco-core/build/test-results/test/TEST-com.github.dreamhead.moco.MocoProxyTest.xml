@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoProxyTest" tests="26" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:35" hostname="ubuntu" time="0.549">
+  <properties/>
+  <testcase name="should_batch_proxy_from_server_with_context_server" classname="com.github.dreamhead.moco.MocoProxyTest" time="0.031"/>
+  <testcase name="should_failover_for_batch_api_with_specified_status" classname="com.github.dreamhead.moco.MocoProxyTest" time="0.06"/>
+  <testcase name="should_failover_with_same_response_once" classname="com.github.dreamhead.moco.MocoProxyTest" time="0.068"/>
+  <testcase name="should_not_proxy_url_for_unmatching_url_for_batch_proxy_from_server" classname="com.github.dreamhead.moco.MocoProxyTest" time="0.009"/>
+  <testcase name="should_proxy_with_playback_to_access_remote_only_once" classname="com.github.dreamhead.moco.MocoProxyTest" time="0.023"/>
+  <testcase name="should_proxy_a_batch_of_urls_with_failover_from_server" classname="com.github.dreamhead.moco.MocoProxyTest" time="0.01"/>
+  <testcase name="should_proxy_with_request_version" classname="com.github.dreamhead.moco.MocoProxyTest" time="0.015"/>
+  <testcase name="should_failover_for_unreachable_remote_server_with_many_content" classname="com.github.dreamhead.moco.MocoProxyTest" time="0.023"/>
+  <testcase name="should_proxy_with_request_query_parameters" classname="com.github.dreamhead.moco.MocoProxyTest" time="0.016"/>
+  <testcase name="should_proxy_a_batch_of_urls_with_failover" classname="com.github.dreamhead.moco.MocoProxyTest" time="0.011"/>
+  <testcase name="should_failover_for_specified_status_with_resource_proxy" classname="com.github.dreamhead.moco.MocoProxyTest" time="0.018"/>
+  <testcase name="should_proxy_with_request_header" classname="com.github.dreamhead.moco.MocoProxyTest" time="0.01"/>
+  <testcase name="should_batch_proxy_from_server" classname="com.github.dreamhead.moco.MocoProxyTest" time="0.014"/>
+  <testcase name="should_proxy_with_request_method" classname="com.github.dreamhead.moco.MocoProxyTest" time="0.038"/>
+  <testcase name="should_proxy_with_response_version" classname="com.github.dreamhead.moco.MocoProxyTest" time="0.02"/>
+  <testcase name="should_proxy_with_playback" classname="com.github.dreamhead.moco.MocoProxyTest" time="0.025"/>
+  <testcase name="should_failover_with_many_response_content" classname="com.github.dreamhead.moco.MocoProxyTest" time="0.029"/>
+  <testcase name="should_forward_gbk_request" classname="com.github.dreamhead.moco.MocoProxyTest" time="0.013"/>
+  <testcase name="should_proxy_with_response_headers" classname="com.github.dreamhead.moco.MocoProxyTest" time="0.009"/>
+  <testcase name="should_work_with_template" classname="com.github.dreamhead.moco.MocoProxyTest" time="0.01"/>
+  <testcase name="should_proxy_a_batch_of_urls" classname="com.github.dreamhead.moco.MocoProxyTest" time="0.014"/>
+  <testcase name="should_ignore_some_header_from_remote_server" classname="com.github.dreamhead.moco.MocoProxyTest" time="0.01"/>
+  <testcase name="should_failover_for_unreachable_remote_server" classname="com.github.dreamhead.moco.MocoProxyTest" time="0.013"/>
+  <testcase name="should_failover_for_specified_status" classname="com.github.dreamhead.moco.MocoProxyTest" time="0.023"/>
+  <testcase name="should_work_with_file_resource_url" classname="com.github.dreamhead.moco.MocoProxyTest" time="0.009"/>
+  <testcase name="should_failover_with_response_content" classname="com.github.dreamhead.moco.MocoProxyTest" time="0.02"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

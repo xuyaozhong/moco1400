@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Package: com.github.dreamhead
+Implementation-Title: moco-core
+Implementation-Version: 1.1.0
+Implementation-Vendor: Zheng Ye
+Built-By: Zheng Ye
+Built-Date: 3/11/20, 1:27:40 AM
+Built-With: gradle-6.2.2, groovy-2.5.8
+Created-By: Java 11.0.6 (Ubuntu)
+

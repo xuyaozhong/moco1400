@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.parser.GlobalSettingParserTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:27:22" hostname="ubuntu" time="0.005">
+  <properties/>
+  <testcase name="should_parse_settings_file_with_context" classname="com.github.dreamhead.moco.parser.GlobalSettingParserTest" time="0.001"/>
+  <testcase name="should_parse_setting_file_with_file_root" classname="com.github.dreamhead.moco.parser.GlobalSettingParserTest" time="0.001"/>
+  <testcase name="should_parse_settings_file" classname="com.github.dreamhead.moco.parser.GlobalSettingParserTest" time="0.0"/>
+  <testcase name="should_parse_glob_settings_file" classname="com.github.dreamhead.moco.parser.GlobalSettingParserTest" time="0.001"/>
+  <testcase name="should_parse_setting_file_with_env" classname="com.github.dreamhead.moco.parser.GlobalSettingParserTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

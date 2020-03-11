@@ -1,0 +1,8 @@
+[
+   {
+     "response" :
+        {
+           "file" : "src/test/resources/foo.response"
+        }
+   }
+]

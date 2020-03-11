@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoGlobalRequestTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:35" hostname="ubuntu" time="0.179">
+  <properties/>
+  <testcase name="should_throw_exception_without_match_json" classname="com.github.dreamhead.moco.MocoGlobalRequestTest" time="0.009"/>
+  <testcase name="should_throw_exception_without_match_mount" classname="com.github.dreamhead.moco.MocoGlobalRequestTest" time="0.006"/>
+  <testcase name="should_match_mount" classname="com.github.dreamhead.moco.MocoGlobalRequestTest" time="0.007"/>
+  <testcase name="should_throw_exception_without_global_matcher_for_exist" classname="com.github.dreamhead.moco.MocoGlobalRequestTest" time="0.007"/>
+  <testcase name="should_throw_exception_without_global_matcher" classname="com.github.dreamhead.moco.MocoGlobalRequestTest" time="0.007"/>
+  <testcase name="should_match_with_xml" classname="com.github.dreamhead.moco.MocoGlobalRequestTest" time="0.051"/>
+  <testcase name="should_match_request_based_on_not_matcher" classname="com.github.dreamhead.moco.MocoGlobalRequestTest" time="0.009"/>
+  <testcase name="should_throw_exception_without_global_matcher_for_any_response" classname="com.github.dreamhead.moco.MocoGlobalRequestTest" time="0.006"/>
+  <testcase name="should_match_global_header_with_any_response" classname="com.github.dreamhead.moco.MocoGlobalRequestTest" time="0.006"/>
+  <testcase name="should_match_with_exist_header" classname="com.github.dreamhead.moco.MocoGlobalRequestTest" time="0.005"/>
+  <testcase name="should_match_global_header" classname="com.github.dreamhead.moco.MocoGlobalRequestTest" time="0.006"/>
+  <testcase name="should_match_request_based_on_and_matcher" classname="com.github.dreamhead.moco.MocoGlobalRequestTest" time="0.007"/>
+  <testcase name="should_throw_exception_without_match_and_matcher" classname="com.github.dreamhead.moco.MocoGlobalRequestTest" time="0.012"/>
+  <testcase name="should_match_with_json" classname="com.github.dreamhead.moco.MocoGlobalRequestTest" time="0.01"/>
+  <testcase name="should_throw_exception_without_match_not" classname="com.github.dreamhead.moco.MocoGlobalRequestTest" time="0.01"/>
+  <testcase name="should_throw_exception_without_match_xml" classname="com.github.dreamhead.moco.MocoGlobalRequestTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

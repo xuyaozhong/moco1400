@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.internal.ActualSocketServerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:35" hostname="ubuntu" time="0.016">
+  <properties/>
+  <testcase name="should_merge_socket_servers_without_ports_for_both_server" classname="com.github.dreamhead.moco.internal.ActualSocketServerTest" time="0.002"/>
+  <testcase name="should_merge_socket_servers_with_first_port" classname="com.github.dreamhead.moco.internal.ActualSocketServerTest" time="0.003"/>
+  <testcase name="should_merge_socket_servers" classname="com.github.dreamhead.moco.internal.ActualSocketServerTest" time="0.008"/>
+  <testcase name="should_merge_socket_servers_with_second_port" classname="com.github.dreamhead.moco.internal.ActualSocketServerTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

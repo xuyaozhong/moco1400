@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoJsonTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:29" hostname="ubuntu" time="0.187">
+  <properties/>
+  <testcase name="should_match_exact_json_with_resource" classname="com.github.dreamhead.moco.MocoJsonTest" time="0.013"/>
+  <testcase name="should_not_return_anything_for_mismatch_jsonpath" classname="com.github.dreamhead.moco.MocoJsonTest" time="0.007"/>
+  <testcase name="should_not_return_anything_if_no_json_found" classname="com.github.dreamhead.moco.MocoJsonTest" time="0.007"/>
+  <testcase name="should_return_content_based_on_jsonpath_existing" classname="com.github.dreamhead.moco.MocoJsonTest" time="0.009"/>
+  <testcase name="should_return_json_for_POJO_with_CJK" classname="com.github.dreamhead.moco.MocoJsonTest" time="0.024"/>
+  <testcase name="should_not_return_anything_if_no_json_path_found" classname="com.github.dreamhead.moco.MocoJsonTest" time="0.008"/>
+  <testcase name="should_return_content_based_on_jsonpath" classname="com.github.dreamhead.moco.MocoJsonTest" time="0.008"/>
+  <testcase name="should_send_post_request_to_target_on_complete_with_json" classname="com.github.dreamhead.moco.MocoJsonTest" time="0.024"/>
+  <testcase name="should_match_same_structure_json" classname="com.github.dreamhead.moco.MocoJsonTest" time="0.023"/>
+  <testcase name="should_match_POJO_json_resource" classname="com.github.dreamhead.moco.MocoJsonTest" time="0.007"/>
+  <testcase name="should_match_gbk_request" classname="com.github.dreamhead.moco.MocoJsonTest" time="0.01"/>
+  <testcase name="should_match_exact_json" classname="com.github.dreamhead.moco.MocoJsonTest" time="0.008"/>
+  <testcase name="should_match_POJO_json" classname="com.github.dreamhead.moco.MocoJsonTest" time="0.008"/>
+  <testcase name="should_match_request_with_gbk_resource" classname="com.github.dreamhead.moco.MocoJsonTest" time="0.01"/>
+  <testcase name="should_return_json_for_POJO" classname="com.github.dreamhead.moco.MocoJsonTest" time="0.008"/>
+  <testcase name="should_return_json_for_text" classname="com.github.dreamhead.moco.MocoJsonTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

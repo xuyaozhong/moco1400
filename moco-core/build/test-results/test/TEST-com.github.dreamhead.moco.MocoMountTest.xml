@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoMountTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:30" hostname="ubuntu" time="0.066">
+  <properties/>
+  <testcase name="should_return_inclusion_file" classname="com.github.dreamhead.moco.MocoMountTest" time="0.015"/>
+  <testcase name="should_not_return_exclusion_file" classname="com.github.dreamhead.moco.MocoMountTest" time="0.007"/>
+  <testcase name="should_mount_with_other_handler" classname="com.github.dreamhead.moco.MocoMountTest" time="0.007"/>
+  <testcase name="should_not_return_non_inclusion_file" classname="com.github.dreamhead.moco.MocoMountTest" time="0.007"/>
+  <testcase name="should_mount_dir_to_uri" classname="com.github.dreamhead.moco.MocoMountTest" time="0.008"/>
+  <testcase name="should_return_non_exclusion_file" classname="com.github.dreamhead.moco.MocoMountTest" time="0.009"/>
+  <testcase name="should_return_bad_request_for_nonexistence_file" classname="com.github.dreamhead.moco.MocoMountTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.internal.InternalApisTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:35" hostname="ubuntu" time="0.0">
+  <properties/>
+  <testcase name="should_not_match_mismatch_uri" classname="com.github.dreamhead.moco.internal.InternalApisTest" time="0.0"/>
+  <testcase name="should_create_context_correctly" classname="com.github.dreamhead.moco.internal.InternalApisTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,42 @@
+[
+    {
+        "mount" :
+        {
+            "dir" : "src/test/resources/mount",
+            "uri" : "/mount"
+        }
+    },
+    {
+        "mount" :
+        {
+            "dir" : "src/test/resources/mount",
+            "uri" : "/mount-include",
+            "includes" :
+            [
+                "*.response"
+            ]
+        }
+    },
+    {
+        "mount" :
+        {
+            "dir" : "src/test/resources/mount",
+            "uri" : "/mount-exclude",
+            "excludes" :
+            [
+                "*.response"
+            ]
+        }
+    },
+    {
+        "mount" :
+        {
+            "dir" : "src/test/resources/mount",
+            "uri" : "/mount-response",
+            "headers" : {
+                "Content-Type" : "text/plain"
+            }
+        }
+    }
+
+]

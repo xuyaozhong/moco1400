@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoRequestHitTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:37" hostname="ubuntu" time="0.196">
+  <properties/>
+  <testcase name="should_verify_expected_request_for_at_most" classname="com.github.dreamhead.moco.MocoRequestHitTest" time="0.007"/>
+  <testcase name="should_verify_expected_request_for_at_least" classname="com.github.dreamhead.moco.MocoRequestHitTest" time="0.007"/>
+  <testcase name="should_verify_expected_request_for_between" classname="com.github.dreamhead.moco.MocoRequestHitTest" time="0.008"/>
+  <testcase name="should_monitor_server_behavior_without_port" classname="com.github.dreamhead.moco.MocoRequestHitTest" time="0.042"/>
+  <testcase name="should_fail_to_verify_while_once_expectation_can_not_be_met" classname="com.github.dreamhead.moco.MocoRequestHitTest" time="0.002"/>
+  <testcase name="should_verify_expected_request_and_log_at_same_time" classname="com.github.dreamhead.moco.MocoRequestHitTest" time="0.01"/>
+  <testcase name="should_throw_exception_for_negative_number_for_times" classname="com.github.dreamhead.moco.MocoRequestHitTest" time="0.001"/>
+  <testcase name="should_verify_expected_request" classname="com.github.dreamhead.moco.MocoRequestHitTest" time="0.005"/>
+  <testcase name="should_fail_to_verify_while_expectation_can_not_be_met" classname="com.github.dreamhead.moco.MocoRequestHitTest" time="0.002"/>
+  <testcase name="should_fail_to_verify_at_least_expected_request_while_expectation_can_not_be_met" classname="com.github.dreamhead.moco.MocoRequestHitTest" time="0.0"/>
+  <testcase name="should_verify_unexpected_request_with_unexpected_request" classname="com.github.dreamhead.moco.MocoRequestHitTest" time="0.006"/>
+  <testcase name="should_verify_expected_request_and_log_at_same_time_for_https" classname="com.github.dreamhead.moco.MocoRequestHitTest" time="0.05"/>
+  <testcase name="should_verify_form_data" classname="com.github.dreamhead.moco.MocoRequestHitTest" time="0.007"/>
+  <testcase name="should_monitor_server_behavior" classname="com.github.dreamhead.moco.MocoRequestHitTest" time="0.008"/>
+  <testcase name="should_fail_to_verify_while_unexpected_request_expectation_can_not_be_met" classname="com.github.dreamhead.moco.MocoRequestHitTest" time="0.012"/>
+  <testcase name="should_verify_unexpected_request_without_unexpected_request" classname="com.github.dreamhead.moco.MocoRequestHitTest" time="0.006"/>
+  <testcase name="should_verify_form_data_even_if_no_server_expectation" classname="com.github.dreamhead.moco.MocoRequestHitTest" time="0.006"/>
+  <testcase name="should_verify_expected_request_for_once" classname="com.github.dreamhead.moco.MocoRequestHitTest" time="0.006"/>
+  <testcase name="should_fail_to_verify_at_most_expected_request_while_expectation_can_not_be_met" classname="com.github.dreamhead.moco.MocoRequestHitTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoCookieStandaloneTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:27:34" hostname="ubuntu" time="0.141">
+  <properties/>
+  <testcase name="should_set_and_recognize_cookie_with_path" classname="com.github.dreamhead.moco.MocoCookieStandaloneTest" time="0.051"/>
+  <testcase name="should_set_and_recognize_cookie_with_max_age" classname="com.github.dreamhead.moco.MocoCookieStandaloneTest" time="0.019"/>
+  <testcase name="should_set_and_recognize_cookie_with_http_only" classname="com.github.dreamhead.moco.MocoCookieStandaloneTest" time="0.008"/>
+  <testcase name="should_set_and_recognize_cookie_with_domain" classname="com.github.dreamhead.moco.MocoCookieStandaloneTest" time="0.037"/>
+  <testcase name="should_set_and_recognize_cookie" classname="com.github.dreamhead.moco.MocoCookieStandaloneTest" time="0.008"/>
+  <testcase name="should_set_and_recognize_cookie_with_secure" classname="com.github.dreamhead.moco.MocoCookieStandaloneTest" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Mar 11, 2020 1:27:34 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Cookie rejected [login="true", version:0, domain:github.com, path:/, expiry:null] Illegal 'domain' attribute "github.com". Domain of origin: "localhost"
+]]></system-err>
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoProxyStandaloneTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:27:37" hostname="ubuntu" time="0.199">
+  <properties/>
+  <testcase name="should_throw_exception_if_from_is_missing" classname="com.github.dreamhead.moco.MocoProxyStandaloneTest" time="0.006"/>
+  <testcase name="should_playback" classname="com.github.dreamhead.moco.MocoProxyStandaloneTest" time="0.044"/>
+  <testcase name="should_failover_for_batch_proxy" classname="com.github.dreamhead.moco.MocoProxyStandaloneTest" time="0.02"/>
+  <testcase name="should_response_with_failover_status" classname="com.github.dreamhead.moco.MocoProxyStandaloneTest" time="0.025"/>
+  <testcase name="should_not_proxy_from_server_with_url" classname="com.github.dreamhead.moco.MocoProxyStandaloneTest" time="0.001"/>
+  <testcase name="should_response_with_proxy_template_url" classname="com.github.dreamhead.moco.MocoProxyStandaloneTest" time="0.013"/>
+  <testcase name="should_batch_proxy_from_server" classname="com.github.dreamhead.moco.MocoProxyStandaloneTest" time="0.016"/>
+  <testcase name="should_throw_exception_if_to_is_missing" classname="com.github.dreamhead.moco.MocoProxyStandaloneTest" time="0.001"/>
+  <testcase name="should_batch_proxy_with_failover_from_server" classname="com.github.dreamhead.moco.MocoProxyStandaloneTest" time="0.012"/>
+  <testcase name="should_batch_proxy" classname="com.github.dreamhead.moco.MocoProxyStandaloneTest" time="0.019"/>
+  <testcase name="should_throw_exception_if_proxy_has_both_url_and_batch" classname="com.github.dreamhead.moco.MocoProxyStandaloneTest" time="0.001"/>
+  <testcase name="should_response_with_proxy" classname="com.github.dreamhead.moco.MocoProxyStandaloneTest" time="0.012"/>
+  <testcase name="should_failover" classname="com.github.dreamhead.moco.MocoProxyStandaloneTest" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

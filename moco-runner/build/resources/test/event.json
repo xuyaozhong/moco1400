@@ -1,0 +1,223 @@
+[
+    {
+        "request": {
+            "uri": "/event"
+        },
+        "response": {
+            "text": "post_foo"
+        },
+        "on": {
+            "complete": {
+                "async": "true",
+                "latency": 500,
+                "post": {
+                    "url": "http://localhost:12306/target",
+                    "content": "content"
+                }
+            }
+        }
+    },
+    {
+      "request": {
+          "uri": "/event-with-unit"
+      },
+      "response": {
+          "text": "post_foo"
+      },
+      "on": {
+          "complete": {
+              "async": "true",
+              "latency": {
+                  "duration": 1,
+                  "unit": "second"
+              },
+              "post": {
+                  "url": "http://localhost:12306/target",
+                  "content": "content"
+              }
+          }
+      }
+    },
+    {
+        "request": {
+            "uri" : "/get_event"
+        },
+        "response": {
+            "text": "get_foo"
+        },
+        "on": {
+            "complete": {
+                "async" : "true",
+                "latency" : 1000,
+                "get" : {
+                    "url" : "http://localhost:12306/target"
+                }
+            }
+        }
+    },
+    {
+        "request": {
+            "uri" : "/get_event_with_header"
+        },
+        "response": {
+            "text": "get_foo_with_header"
+        },
+        "on": {
+            "complete": {
+                "async" : "true",
+                "latency" : 1000,
+                "get" : {
+                  "url" : "http://localhost:12306/target-with-header",
+                  "headers": {
+                      "foo": "bar"
+                  }
+                }
+            }
+        }
+    },
+    {
+        "request": {
+            "uri" : "/post_event_with_header"
+        },
+        "response": {
+            "text": "post_foo_with_header"
+        },
+        "on": {
+          "complete": {
+            "async" : "true",
+            "latency" : 1000,
+            "post" : {
+              "url" : "http://localhost:12306/target-with-header",
+              "headers": {
+                "foo": "bar"
+              },
+              "content": "content"
+            }
+          }
+        }
+    },
+    {
+        "request": {
+            "uri" : "/get_event_template"
+        },
+        "response": {
+            "text": "get_foo"
+        },
+        "on": {
+            "complete": {
+                "async" : "true",
+                "latency" : 1000,
+                "get" : {
+                    "url" : {
+                        "template": {
+                            "with": "http://localhost:12306/${target}",
+                            "vars": {
+                                "target" : "target"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+      "request": {
+        "uri": "/post-event-with-template-url"
+      },
+      "response": {
+        "text": "post_foo"
+      },
+      "on": {
+        "complete": {
+          "async": "true",
+          "latency": 500,
+          "post": {
+            "url" : {
+              "template": {
+                "with": "http://localhost:12306/${target}",
+                "vars": {
+                  "target" : "target"
+                }
+              }
+            },
+            "content": "content"
+          }
+        }
+      }
+    },
+    {
+      "request": {
+        "uri": "/post-event-with-template-content"
+      },
+      "response": {
+        "text": "post_foo"
+      },
+      "on": {
+        "complete": {
+          "async": "true",
+          "latency": 500,
+          "post": {
+            "url": "http://localhost:12306/target",
+            "content": {
+              "template": {
+                "with": "${target}",
+                "vars": {
+                  "target" : "target"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "request": {
+        "uri": "/event-with-json-post"
+      },
+      "response": {
+        "text": "post_json_foo"
+      },
+      "on": {
+        "complete": {
+          "async": "true",
+          "latency": 500,
+          "post": {
+            "url": "http://localhost:12306/target-json",
+            "json": {
+              "foo": "bar"
+            }
+          }
+        }
+      }
+    },
+    {
+        "request": {
+            "uri" : "/target"
+        },
+        "response": {
+            "text": "0XCAFEBABE"
+        }
+    },
+    {
+      "request": {
+        "uri" : "/target-json",
+        "json" : {
+          "foo" : "bar"
+        }
+      },
+      "response": {
+        "text": "0XMOCOJSON"
+      }
+    },
+    {
+      "request": {
+        "uri" : "/target-with-header",
+        "headers" : {
+          "foo" : "bar"
+        }
+      },
+      "response": {
+        "text": "0XMOCOHEADER"
+      }
+    }
+]

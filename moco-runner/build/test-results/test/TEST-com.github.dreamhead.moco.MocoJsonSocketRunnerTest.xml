@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoJsonSocketRunnerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:27:22" hostname="ubuntu" time="0.024">
+  <properties/>
+  <testcase name="should_return_expected_response" classname="com.github.dreamhead.moco.MocoJsonSocketRunnerTest" time="0.017"/>
+  <testcase name="should_return_expected_response_without_port" classname="com.github.dreamhead.moco.MocoJsonSocketRunnerTest" time="0.007"/>
+  <system-out><![CDATA[11 Mar 2020 01:27:22 [pool-1-thread-9] INFO  Request received:
+
+foo
+
+11 Mar 2020 01:27:22 [pool-1-thread-9] INFO  Response return:
+
+bar
+
+11 Mar 2020 01:27:22 [pool-1-thread-9] INFO  Request received:
+
+anything
+
+11 Mar 2020 01:27:22 [pool-1-thread-9] INFO  Response return:
+
+blah
+
+11 Mar 2020 01:27:22 [pool-1-thread-7] INFO  Request received:
+
+foo
+
+11 Mar 2020 01:27:22 [pool-1-thread-7] INFO  Response return:
+
+bar
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

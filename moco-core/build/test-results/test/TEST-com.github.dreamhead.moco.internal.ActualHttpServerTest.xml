@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.internal.ActualHttpServerTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:35" hostname="ubuntu" time="0.223">
+  <properties/>
+  <testcase name="should_merge_https_server" classname="com.github.dreamhead.moco.internal.ActualHttpServerTest" time="0.059"/>
+  <testcase name="should_config_handler_correctly_other_side_while_merging" classname="com.github.dreamhead.moco.internal.ActualHttpServerTest" time="0.007"/>
+  <testcase name="should_merge_http_server_with_same_port" classname="com.github.dreamhead.moco.internal.ActualHttpServerTest" time="0.004"/>
+  <testcase name="should_merge_http_server_with_different_port" classname="com.github.dreamhead.moco.internal.ActualHttpServerTest" time="0.003"/>
+  <testcase name="should_merge_two_https_servers" classname="com.github.dreamhead.moco.internal.ActualHttpServerTest" time="0.045"/>
+  <testcase name="should_merge_http_server_without_port_for_first_server" classname="com.github.dreamhead.moco.internal.ActualHttpServerTest" time="0.004"/>
+  <testcase name="should_throw_exception_for_merging_http_server_with_any_handler_one_side" classname="com.github.dreamhead.moco.internal.ActualHttpServerTest" time="0.006"/>
+  <testcase name="should_config_handler_correctly_while_merging" classname="com.github.dreamhead.moco.internal.ActualHttpServerTest" time="0.009"/>
+  <testcase name="should_throw_for_merging_http_server_with_any_handler_other_side" classname="com.github.dreamhead.moco.internal.ActualHttpServerTest" time="0.006"/>
+  <testcase name="should_merge_https_server_into_http_server" classname="com.github.dreamhead.moco.internal.ActualHttpServerTest" time="0.042"/>
+  <testcase name="should_merge_http_server_without_port_for_second_server" classname="com.github.dreamhead.moco.internal.ActualHttpServerTest" time="0.004"/>
+  <testcase name="should_merge_http_server_without_port_for_both_servers" classname="com.github.dreamhead.moco.internal.ActualHttpServerTest" time="0.001"/>
+  <testcase name="should_merge_http_server_with_any_handler_other_side" classname="com.github.dreamhead.moco.internal.ActualHttpServerTest" time="0.008"/>
+  <testcase name="should_merge_http_server_with_any_handler_one_side" classname="com.github.dreamhead.moco.internal.ActualHttpServerTest" time="0.02"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

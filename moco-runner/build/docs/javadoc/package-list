@@ -1,0 +1,10 @@
+com.github.dreamhead.moco
+com.github.dreamhead.moco.bootstrap
+com.github.dreamhead.moco.bootstrap.arg
+com.github.dreamhead.moco.bootstrap.parser
+com.github.dreamhead.moco.bootstrap.tasks
+com.github.dreamhead.moco.parser
+com.github.dreamhead.moco.parser.deserializer
+com.github.dreamhead.moco.parser.model
+com.github.dreamhead.moco.runner
+com.github.dreamhead.moco.runner.watcher

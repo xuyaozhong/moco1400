@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.util.FileContentTypeTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:35" hostname="ubuntu" time="0.002">
+  <properties/>
+  <testcase name="should_get_default_type_from_unknown_name" classname="com.github.dreamhead.moco.util.FileContentTypeTest" time="0.001"/>
+  <testcase name="should_have_charset_for_file" classname="com.github.dreamhead.moco.util.FileContentTypeTest" time="0.0"/>
+  <testcase name="should_have_charset_for_css_file" classname="com.github.dreamhead.moco.util.FileContentTypeTest" time="0.001"/>
+  <testcase name="should_get_type_from_filename" classname="com.github.dreamhead.moco.util.FileContentTypeTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

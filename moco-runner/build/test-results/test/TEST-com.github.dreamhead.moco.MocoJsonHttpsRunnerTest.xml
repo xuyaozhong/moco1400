@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoJsonHttpsRunnerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:27:34" hostname="ubuntu" time="0.426">
+  <properties/>
+  <testcase name="should_return_expected_response_from_path_resource" classname="com.github.dreamhead.moco.MocoJsonHttpsRunnerTest" time="0.281"/>
+  <testcase name="should_return_expected_response" classname="com.github.dreamhead.moco.MocoJsonHttpsRunnerTest" time="0.078"/>
+  <testcase name="should_return_expected_response_without_port" classname="com.github.dreamhead.moco.MocoJsonHttpsRunnerTest" time="0.065"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

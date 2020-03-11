@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoCycleStandaloneTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:27:23" hostname="ubuntu" time="0.037">
+  <properties/>
+  <testcase name="should_work_well_with_json" classname="com.github.dreamhead.moco.MocoCycleStandaloneTest" time="0.018"/>
+  <testcase name="should_work_well" classname="com.github.dreamhead.moco.MocoCycleStandaloneTest" time="0.018"/>
+  <system-out><![CDATA[11 Mar 2020 01:27:23 [Test worker] INFO  Server is started at 12306
+11 Mar 2020 01:27:23 [pool-1-thread-5] INFO  Request received:
+
+GET /cycle-json HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+11 Mar 2020 01:27:23 [pool-1-thread-5] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 13
+Content-Type: application/json; charset=utf-8
+
+{"foo":"bar"}
+
+11 Mar 2020 01:27:23 [pool-1-thread-5] INFO  Request received:
+
+GET /cycle-json HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+11 Mar 2020 01:27:23 [pool-1-thread-5] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 17
+Content-Type: application/json; charset=utf-8
+
+{"hello":"world"}
+
+11 Mar 2020 01:27:23 [pool-1-thread-5] INFO  Request received:
+
+GET /cycle-json HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+11 Mar 2020 01:27:23 [pool-1-thread-5] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 13
+Content-Type: application/json; charset=utf-8
+
+{"foo":"bar"}
+
+11 Mar 2020 01:27:23 [Test worker] INFO  Server stopped.
+11 Mar 2020 01:27:23 [Test worker] INFO  Server is started at 12306
+11 Mar 2020 01:27:23 [pool-1-thread-10] INFO  Request received:
+
+GET /cycle HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+11 Mar 2020 01:27:23 [pool-1-thread-10] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 3
+Content-Type: text/plain; charset=utf-8
+
+foo
+
+11 Mar 2020 01:27:23 [pool-1-thread-10] INFO  Request received:
+
+GET /cycle HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+11 Mar 2020 01:27:23 [pool-1-thread-10] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 3
+Content-Type: text/plain; charset=utf-8
+
+bar
+
+11 Mar 2020 01:27:23 [pool-1-thread-10] INFO  Request received:
+
+GET /cycle HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+11 Mar 2020 01:27:23 [pool-1-thread-10] INFO  Response return:
+
+HTTP/1.1 200
+Content-Length: 3
+Content-Type: text/plain; charset=utf-8
+
+foo
+
+11 Mar 2020 01:27:23 [Test worker] INFO  Server stopped.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoRestTest" tests="38" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:29" hostname="ubuntu" time="0.866">
+  <properties/>
+  <testcase name="should_head_with_any_id" classname="com.github.dreamhead.moco.MocoRestTest" time="0.038"/>
+  <testcase name="should_work_with_other_http_configuration" classname="com.github.dreamhead.moco.MocoRestTest" time="0.32"/>
+  <testcase name="should_put_with_any_id" classname="com.github.dreamhead.moco.MocoRestTest" time="0.013"/>
+  <testcase name="should_put_with_matcher" classname="com.github.dreamhead.moco.MocoRestTest" time="0.01"/>
+  <testcase name="should_not_put_with_unknown_id" classname="com.github.dreamhead.moco.MocoRestTest" time="0.012"/>
+  <testcase name="should_not_head_with_unknown_id" classname="com.github.dreamhead.moco.MocoRestTest" time="0.016"/>
+  <testcase name="should_patch" classname="com.github.dreamhead.moco.MocoRestTest" time="0.014"/>
+  <testcase name="should_reply_404_for_unknown_resource" classname="com.github.dreamhead.moco.MocoRestTest" time="0.01"/>
+  <testcase name="should_get_sub_resource" classname="com.github.dreamhead.moco.MocoRestTest" time="0.017"/>
+  <testcase name="should_get_resource_by_any_id" classname="com.github.dreamhead.moco.MocoRestTest" time="0.017"/>
+  <testcase name="should_verify_expected_request_and_log_at_same_time" classname="com.github.dreamhead.moco.MocoRestTest" time="0.02"/>
+  <testcase name="should_put_with_response_handler" classname="com.github.dreamhead.moco.MocoRestTest" time="0.01"/>
+  <testcase name="should_head" classname="com.github.dreamhead.moco.MocoRestTest" time="0.011"/>
+  <testcase name="should_post" classname="com.github.dreamhead.moco.MocoRestTest" time="0.012"/>
+  <testcase name="should_delete_with_matcher" classname="com.github.dreamhead.moco.MocoRestTest" time="0.014"/>
+  <testcase name="should_delete" classname="com.github.dreamhead.moco.MocoRestTest" time="0.011"/>
+  <testcase name="should_put" classname="com.github.dreamhead.moco.MocoRestTest" time="0.012"/>
+  <testcase name="should_get_resource_by_id_with_request_config" classname="com.github.dreamhead.moco.MocoRestTest" time="0.032"/>
+  <testcase name="should_not_delete_with_unknown_id" classname="com.github.dreamhead.moco.MocoRestTest" time="0.011"/>
+  <testcase name="should_post_with_header" classname="com.github.dreamhead.moco.MocoRestTest" time="0.015"/>
+  <testcase name="should_get_sub_resource_with_any_id" classname="com.github.dreamhead.moco.MocoRestTest" time="0.025"/>
+  <testcase name="should_get_all_resources" classname="com.github.dreamhead.moco.MocoRestTest" time="0.039"/>
+  <testcase name="should_delete_with_response" classname="com.github.dreamhead.moco.MocoRestTest" time="0.01"/>
+  <testcase name="should_get_resource_by_id" classname="com.github.dreamhead.moco.MocoRestTest" time="0.015"/>
+  <testcase name="should_throw_exception_for_invalid_sub_resource_name" classname="com.github.dreamhead.moco.MocoRestTest" time="0.002"/>
+  <testcase name="should_throw_exception_for_resource_name_with_slash" classname="com.github.dreamhead.moco.MocoRestTest" time="0.002"/>
+  <testcase name="should_throw_exception_for_resource_name_with_space" classname="com.github.dreamhead.moco.MocoRestTest" time="0.003"/>
+  <testcase name="should_patch_with_any_id" classname="com.github.dreamhead.moco.MocoRestTest" time="0.016"/>
+  <testcase name="should_delete_with_any_id" classname="com.github.dreamhead.moco.MocoRestTest" time="0.016"/>
+  <testcase name="should_get_all_resources_by_default" classname="com.github.dreamhead.moco.MocoRestTest" time="0.017"/>
+  <testcase name="should_request_server_by_moco_config" classname="com.github.dreamhead.moco.MocoRestTest" time="0.014"/>
+  <testcase name="should_log_request_and_response" classname="com.github.dreamhead.moco.MocoRestTest" time="0.025"/>
+  <testcase name="should_head_with_matcher" classname="com.github.dreamhead.moco.MocoRestTest" time="0.013"/>
+  <testcase name="should_head_with_all" classname="com.github.dreamhead.moco.MocoRestTest" time="0.011"/>
+  <testcase name="should_throw_exception_for_get_id_with_slash" classname="com.github.dreamhead.moco.MocoRestTest" time="0.002"/>
+  <testcase name="should_throw_exception_for_get_id_with_space" classname="com.github.dreamhead.moco.MocoRestTest" time="0.001"/>
+  <testcase name="should_query_with_condition" classname="com.github.dreamhead.moco.MocoRestTest" time="0.014"/>
+  <testcase name="should_return_404_for_post_with_id_by_default" classname="com.github.dreamhead.moco.MocoRestTest" time="0.009"/>
+  <system-out><![CDATA[Request received:
+
+HEAD /targets/1 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+Response return:
+
+HTTP/1.1 200
+ETag: Moco
+
+Request received:
+
+HEAD /targets/2 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+Response return:
+
+HTTP/1.1 200
+ETag: Moco
+
+Request received:
+
+GET /targets/1 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+Response return:
+
+HTTP/1.1 200
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+
+{"code":1,"message":"hello"}
+
+Request received:
+
+GET /targets/2 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+Response return:
+
+HTTP/1.1 200
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+
+{"code":2,"message":"world"}
+
+Request received:
+
+GET /hello HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+Response return:
+
+HTTP/1.1 200
+Content-Length: 5
+Content-Type: text/plain; charset=utf-8
+
+hello
+
+Request received:
+
+HEAD /targets/2 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+Response return:
+
+HTTP/1.1 404
+
+
+Request received:
+
+PATCH /targets/1 HTTP/1.1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+Content-Length: 6
+Content-Type: text/plain; charset=ISO-8859-1
+
+result
+
+Response return:
+
+HTTP/1.1 200
+Content-Length: 12
+Content-Type: text/plain; charset=utf-8
+
+patch result
+
+Request received:
+
+GET /targets/1 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+Response return:
+
+HTTP/1.1 404
+
+
+Request received:
+
+GET /targets/1/sub/1 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+Response return:
+
+HTTP/1.1 200
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+
+{"code":1,"message":"hello"}
+
+Request received:
+
+GET /targets/1/sub/2 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+Response return:
+
+HTTP/1.1 200
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+
+{"code":2,"message":"world"}
+
+Request received:
+
+GET /targets/1 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+Response return:
+
+HTTP/1.1 200
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+
+{"code":1,"message":"hello"}
+
+Request received:
+
+GET /targets/2 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+Response return:
+
+HTTP/1.1 200
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+
+{"code":1,"message":"hello"}
+
+Request received:
+
+GET /targets/1 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+Response return:
+
+HTTP/1.1 200
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+
+{"code":1,"message":"hello"}
+
+Request received:
+
+GET /targets/2 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+Response return:
+
+HTTP/1.1 200
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+
+{"code":2,"message":"world"}
+
+Request received:
+
+HEAD /targets/1 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+Response return:
+
+HTTP/1.1 200
+ETag: Moco
+
+Request received:
+
+DELETE /targets/1 HTTP/1.1
+content-length: 0
+If-Match: moco
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+Response return:
+
+HTTP/1.1 200
+
+
+Request received:
+
+DELETE /targets/1 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+Response return:
+
+HTTP/1.1 200
+
+
+Request received:
+
+GET /targets/1 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+
+Response return:
+
+HTTP/1.1 200
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+
+{"code":1,"message":"hello"}
+
+Request received:
+
+GET /targets/2 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+
+Response return:
+
+HTTP/1.1 200
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+
+{"code":2,"message":"world"}
+
+Request received:
+
+GET /targets/1 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+Response return:
+
+HTTP/1.1 404
+
+
+Request received:
+
+DELETE /targets/2 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+Response return:
+
+HTTP/1.1 404
+
+
+Request received:
+
+GET /targets/1/sub/1 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+Response return:
+
+HTTP/1.1 200
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+
+{"code":1,"message":"hello"}
+
+Request received:
+
+GET /targets/2/sub/2 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+Response return:
+
+HTTP/1.1 200
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+
+{"code":2,"message":"world"}
+
+Request received:
+
+GET /targets HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+Response return:
+
+HTTP/1.1 200
+Content-Length: 59
+Content-Type: application/json; charset=utf-8
+
+[{"code":1,"message":"hello"},{"code":2,"message":"world"}]
+
+Request received:
+
+DELETE /targets/1 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+Response return:
+
+HTTP/1.1 409
+
+
+Request received:
+
+GET /targets/1 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+Response return:
+
+HTTP/1.1 200
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+
+{"code":1,"message":"hello"}
+
+Request received:
+
+GET /targets/2 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+Response return:
+
+HTTP/1.1 200
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+
+{"code":2,"message":"world"}
+
+Request received:
+
+PATCH /targets/1 HTTP/1.1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+Content-Length: 6
+Content-Type: text/plain; charset=ISO-8859-1
+
+result
+
+Response return:
+
+HTTP/1.1 200
+Content-Length: 12
+Content-Type: text/plain; charset=utf-8
+
+patch result
+
+Request received:
+
+DELETE /targets/1 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+Response return:
+
+HTTP/1.1 200
+
+
+Request received:
+
+DELETE /targets/2 HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+Response return:
+
+HTTP/1.1 200
+
+
+Request received:
+
+GET /targets HTTP/1.1
+content-length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.6)
+Host: localhost:12306
+Accept-Encoding: gzip,deflate
+
+Response return:
+
+HTTP/1.1 200
+Content-Length: 59
+Content-Type: application/json; charset=utf-8
+
+[{"code":1,"message":"hello"},{"code":2,"message":"world"}]
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

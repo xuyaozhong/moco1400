@@ -1,0 +1,37 @@
+[
+    {
+        "request" :
+        {
+            "uri" : "/target/1"
+        },
+        "response" :
+        {
+            "text" : "target_1"
+        }
+    },
+    {
+        "request" :
+        {
+            "uri" : "/target/2"
+        },
+        "response" :
+        {
+            "text" : "target_2"
+        }
+    },
+    {
+        "proxy" : {
+            "from" : "/proxy",
+            "to" : "http://localhost:12306/target"
+        }
+    },
+    {
+        "proxy" :
+        {
+            "from" : "/failover",
+            "to" : "http://localhost:12306/unknown",
+            "failover" : "src/test/resources/standalone_failover.json"
+        }
+    }
+]
+

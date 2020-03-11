@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.junit.MocoJunitJsonSocketRunnerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:45" hostname="ubuntu" time="0.011">
+  <properties/>
+  <testcase name="should_return_expected_response" classname="com.github.dreamhead.moco.junit.MocoJunitJsonSocketRunnerTest" time="0.011"/>
+  <system-out><![CDATA[11 Mar 2020 01:26:45 [pool-1-thread-7] INFO  Request received:
+
+foo
+
+11 Mar 2020 01:26:45 [pool-1-thread-7] INFO  Response return:
+
+bar
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

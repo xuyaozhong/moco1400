@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.MocoFileRootTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:35" hostname="ubuntu" time="0.038">
+  <properties/>
+  <testcase name="should_return_header_from_file_root" classname="com.github.dreamhead.moco.MocoFileRootTest" time="0.007"/>
+  <testcase name="should_return_template_from_file_root" classname="com.github.dreamhead.moco.MocoFileRootTest" time="0.007"/>
+  <testcase name="should_return_template_header_from_file_root" classname="com.github.dreamhead.moco.MocoFileRootTest" time="0.011"/>
+  <testcase name="should_mount_correctly" classname="com.github.dreamhead.moco.MocoFileRootTest" time="0.006"/>
+  <testcase name="should_config_file_root" classname="com.github.dreamhead.moco.MocoFileRootTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

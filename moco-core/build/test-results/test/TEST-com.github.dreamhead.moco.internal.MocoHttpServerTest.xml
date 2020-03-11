@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.internal.MocoHttpServerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:35" hostname="ubuntu" time="0.004">
+  <properties/>
+  <testcase name="should_stop_stopped_server_without_exception" classname="com.github.dreamhead.moco.internal.MocoHttpServerTest" time="0.002"/>
+  <testcase name="should_stop_server_many_times_without_exception" classname="com.github.dreamhead.moco.internal.MocoHttpServerTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

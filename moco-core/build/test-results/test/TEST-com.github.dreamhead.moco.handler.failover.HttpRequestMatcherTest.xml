@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.handler.failover.HttpRequestMatcherTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:35" hostname="ubuntu" time="0.003">
+  <properties/>
+  <testcase name="should_not_be_match_if_uri_is_different" classname="com.github.dreamhead.moco.handler.failover.HttpRequestMatcherTest" time="0.002"/>
+  <testcase name="should_not_be_match_if_request_is_different" classname="com.github.dreamhead.moco.handler.failover.HttpRequestMatcherTest" time="0.0"/>
+  <testcase name="should_be_match_if_failover_field_is_null" classname="com.github.dreamhead.moco.handler.failover.HttpRequestMatcherTest" time="0.0"/>
+  <testcase name="should_be_match_if_request_is_same" classname="com.github.dreamhead.moco.handler.failover.HttpRequestMatcherTest" time="0.0"/>
+  <testcase name="should_be_match_even_if_target_request_has_more_headers" classname="com.github.dreamhead.moco.handler.failover.HttpRequestMatcherTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

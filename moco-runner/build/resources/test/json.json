@@ -1,0 +1,34 @@
+[
+    {
+        "request": {
+            "uri": "/json",
+            "text": {
+                "json": "{\"foo\":\"bar\"}"
+            }
+        },
+        "response": {
+            "text": "response_for_json_request"
+        }
+    },
+    {
+        "request": {
+            "uri": "/json_shortcut",
+            "json": {
+                "foo": "bar"
+            }
+        },
+        "response": {
+            "text": "response_for_json_shortcut"
+        }
+    },
+    {
+        "request": {
+            "uri": "/json_response_shortcut"
+        },
+        "response": {
+            "json": {
+                "foo" : "bar"
+            }
+        }
+    }
+]

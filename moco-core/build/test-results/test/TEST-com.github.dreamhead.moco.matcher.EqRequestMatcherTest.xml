@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.matcher.EqRequestMatcherTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:37" hostname="ubuntu" time="0.05">
+  <properties/>
+  <testcase name="should_return_false_when_extracted_string_array_have_null" classname="com.github.dreamhead.moco.matcher.EqRequestMatcherTest" time="0.05"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

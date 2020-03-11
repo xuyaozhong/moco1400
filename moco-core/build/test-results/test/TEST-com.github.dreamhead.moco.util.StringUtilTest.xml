@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.util.StringUtilTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:26:35" hostname="ubuntu" time="0.001">
+  <properties/>
+  <testcase name="should_strip_string_with_leading_whitespace" classname="com.github.dreamhead.moco.util.StringUtilTest" time="0.0"/>
+  <testcase name="should_strip_empty_to_empty_string" classname="com.github.dreamhead.moco.util.StringUtilTest" time="0.0"/>
+  <testcase name="should_strip_string_with_end_whitespace" classname="com.github.dreamhead.moco.util.StringUtilTest" time="0.001"/>
+  <testcase name="should_strip_string_with_both_leading_and_end_whitespace" classname="com.github.dreamhead.moco.util.StringUtilTest" time="0.0"/>
+  <testcase name="should_strip_ordinary_string_as_it_is" classname="com.github.dreamhead.moco.util.StringUtilTest" time="0.0"/>
+  <testcase name="should_strip_null_to_empty_string" classname="com.github.dreamhead.moco.util.StringUtilTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

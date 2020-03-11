@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.dreamhead.moco.bootstrap.StartArgsTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-03-11T08:27:34" hostname="ubuntu" time="0.005">
+  <properties/>
+  <testcase name="should_parse_socket" classname="com.github.dreamhead.moco.bootstrap.StartArgsTest" time="0.002"/>
+  <testcase name="should_parse_environment" classname="com.github.dreamhead.moco.bootstrap.StartArgsTest" time="0.0"/>
+  <testcase name="should_parse_start_arguments" classname="com.github.dreamhead.moco.bootstrap.StartArgsTest" time="0.0"/>
+  <testcase name="should_not_set_environment_with_config" classname="com.github.dreamhead.moco.bootstrap.StartArgsTest" time="0.0"/>
+  <testcase name="should_not_set_config_and_settings" classname="com.github.dreamhead.moco.bootstrap.StartArgsTest" time="0.001"/>
+  <testcase name="should_parse_without_port" classname="com.github.dreamhead.moco.bootstrap.StartArgsTest" time="0.0"/>
+  <testcase name="should_set_at_least_config_or_settings" classname="com.github.dreamhead.moco.bootstrap.StartArgsTest" time="0.001"/>
+  <testcase name="should_not_set_environment_without_global_settings" classname="com.github.dreamhead.moco.bootstrap.StartArgsTest" time="0.0"/>
+  <testcase name="should_parse_settings" classname="com.github.dreamhead.moco.bootstrap.StartArgsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

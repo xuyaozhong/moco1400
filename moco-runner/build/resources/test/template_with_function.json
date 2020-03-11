@@ -1,0 +1,52 @@
+[
+{
+  "request": {
+    "uri": "/now_template"
+  },
+  "response": {
+    "text": {
+      "template": "${now(\"yyyy-MM-dd\")}"
+    }
+  }
+},
+{
+  "request": {
+    "uri": "/random_template_with_range_and_format"
+  },
+  "response": {
+    "text": {
+      "template": "${random(100, \"###.######\")}"
+    }
+  }
+},
+{
+  "request": {
+    "uri": "/random_template_with_range"
+  },
+  "response": {
+    "text": {
+      "template": "${random(100)}"
+    }
+  }
+},
+{
+  "request": {
+    "uri": "/random_template_with_format"
+  },
+  "response": {
+    "text": {
+      "template": "${random(\"###.######\")}"
+    }
+  }
+},
+{
+  "request": {
+    "uri": "/random_template_without_arg"
+  },
+  "response": {
+    "text": {
+      "template": "${random()}"
+    }
+  }
+}
+]
