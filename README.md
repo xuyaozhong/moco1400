@@ -44,16 +44,14 @@ git clone https://github.com/xuyaozhong/moco1400.git
 ./run.sh
 ```
 
-Postman access http:://<ip>:8080 
+Postman access http:://ip:8080 
 
+## On Windows
+Download [Standalone Runner](https://github.com/xuyaozhong/moco1400/blob/master/moco-runner/build/libs/moco-runner-1.1.0-uber.jar)
 
-## Copyright and license
-Copyright 2012-2020 ZHENG Ye
+Run HTTP server with the configuration file.
+```shell
+java -jar moco-runner-1.1.0-uber.jar http -p 8080 -g settings.json
+```
+* Now, open your favorite browser to visit http://localhost:8080.
 
-Licensed under MIT License (the "License"); You may obtain a copy of the License in the LICENSE file, or at:
-
-https://raw.github.com/dreamhead/moco/master/MIT-LICENSE.txt
-
-## Powered By
-
-<img src="moco-doc/logo_intellij_idea.png?raw=true">
