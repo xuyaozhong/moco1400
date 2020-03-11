@@ -1,0 +1,34 @@
+[
+{
+"resource": {
+  "name": "Scenes",
+  "get": [
+    {
+      "response": {
+	      "file" : "1400/VIID/Scenes-get.response"
+      }
+    }
+  ],
+  "post": [
+    {
+      "request":
+      {
+	"text" : {
+	 "match" : ".*Scenes.*"
+	}
+      },
+      "response": {
+	 "file" : "1400/VIID/Scenes-post.response"
+      }
+    }
+  ],
+  "put": [
+    { "id" : "*", 
+      "response": {
+         "file" : "1400/VIID/Scenes-put.response"
+      }
+    }
+  ]
+}
+}]
+

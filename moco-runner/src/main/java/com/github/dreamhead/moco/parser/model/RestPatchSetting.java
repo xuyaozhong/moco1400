@@ -13,6 +13,7 @@ public final class RestPatchSetting extends RestSingleSetting {
 
     @Override
     protected boolean isIdRequired() {
-        return true;
+//        return true;
+        return false;
     }
 }

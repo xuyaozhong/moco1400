@@ -1,0 +1,14 @@
+[
+{
+"resource": {
+  "name": "APEs",
+  "put": [
+    {
+      "response": {
+	      "file" : "1400/VIID/APEslist.response"
+      }
+    }
+  ]
+}
+}]
+

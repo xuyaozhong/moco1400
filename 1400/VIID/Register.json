@@ -1,0 +1,14 @@
+[
+{
+"resource": {
+  "name": "Register",
+  "post": [
+    {
+      "response": {
+	      "file" : "1400/VIID/Register-post.response"
+      }
+    }
+  ]
+}
+}]
+

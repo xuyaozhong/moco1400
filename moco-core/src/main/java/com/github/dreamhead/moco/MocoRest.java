@@ -75,6 +75,10 @@ public final class MocoRest {
         return put(eq(checkId(id)));
     }
 
+    public static RestSettingBuilder put() {
+        return all(HttpMethod.PUT);
+    }
+
     public static RestSettingBuilder delete(final RestIdMatcher idMatcher) {
         return single(HttpMethod.DELETE, checkNotNull(idMatcher, "ID Matcher should not be null"));
     }

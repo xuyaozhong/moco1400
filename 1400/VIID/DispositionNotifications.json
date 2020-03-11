@@ -1,0 +1,27 @@
+[
+{
+"resource": {
+  "name": "DispositionNotifications",
+  "get": [
+    {
+      "response": {
+	      "file" : "1400/VIID/DispositionNotifications-get.response"
+      }
+    }
+  ],
+  "post": [
+    {
+      "request":
+      {
+	"text" : {
+	 "match" : ".*DispositionNotification.*"
+	}
+      },
+      "response": {
+	 "file" : "1400/VIID/DispositionNotifications-post.response"
+      }
+    }
+  ]
+}
+}]
+

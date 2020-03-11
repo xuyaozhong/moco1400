@@ -1,0 +1,34 @@
+[
+{
+"resource": {
+  "name": "Cases",
+  "get": [
+    {
+      "response": {
+	      "file" : "1400/VIID/Cases-get.response"
+      }
+    }
+  ],
+  "post": [
+    {
+      "request":
+      {
+	"text" : {
+	 "match" : ".*Cases.*"
+	}
+      },
+      "response": {
+	 "file" : "1400/VIID/Cases-post.response"
+      }
+    }
+  ],
+  "put": [
+    { "id" : "*", 
+      "response": {
+         "file" : "1400/VIID/Cases-put.response"
+      }
+    }
+  ]
+}
+}]
+

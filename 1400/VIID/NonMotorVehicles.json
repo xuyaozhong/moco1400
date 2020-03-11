@@ -1,0 +1,34 @@
+[
+{
+"resource": {
+  "name": "NonMotorVehicles",
+  "get": [
+    {
+      "response": {
+	      "file" : "1400/VIID/NonMotorVehicles-get.response"
+      }
+    }
+  ],
+  "post": [
+    {
+      "request":
+      {
+	"text" : {
+	 "match" : ".*NonMotorVehicles.*"
+	}
+      },
+      "response": {
+	 "file" : "1400/VIID/NonMotorVehicles-post.response"
+      }
+    }
+  ],
+  "put": [
+    { "id" : "*", 
+      "response": {
+         "file" : "1400/VIID/NonMotorVehicles-put.response"
+      }
+    }
+  ]
+}
+}]
+

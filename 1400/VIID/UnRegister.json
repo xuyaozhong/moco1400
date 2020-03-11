@@ -1,0 +1,14 @@
+[
+{
+"resource": {
+  "name": "UnRegister",
+  "post": [
+    {
+      "response": {
+	      "file" : "1400/VIID/UnRegister-post.response"
+      }
+    }
+  ]
+}
+}]
+

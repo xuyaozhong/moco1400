@@ -1,0 +1,145 @@
+{
+    "NonMotorVehicleListObject": {
+        "NonMotorVehicleObject": [
+            {
+                "VehicleRoof": "这是车顶的描述",
+                "RearviewMirror": "这是后视镜",
+                "NonMotorVehicleID": "650100000013200000010120170330120000000010200001",
+                "SideOfVehicle": "这是车侧的描述",
+                "DisappearTime": "20190212231230",
+                "FilmColor": 1,
+                "PersonInfoList": {
+                    "PersonObject": [
+                        {
+                            "TargetSize": 1,
+                            "PersonDirection": 1,
+                            "HeightUpLimit": 180,
+                            "IDType": "111",
+                            "CapStyle": "2",
+                            "Direction": 1,
+                            "Name": "张三",
+                            "IsCap": 1,
+                            "IsRespirator": 1,
+                            "HeightLowerLimit": 160,
+                            "TrousersColor": "1",
+                            "IDNumber": "33010800001190000001",
+                            "GenderCode": "0",
+                            "RespiratorColor": "1",
+                            "Speed": 1,
+                            "EthicCode": "01",
+                            "AgeLowerLimit": 12,
+                            "CyclingPersonNumber": 1,
+                            "Things": 1,
+                            "TrousersLen": "1",
+                            "BagColor": "1",
+                            "IsBackpack": 1,
+                            "IsGlass": 1,
+                            "TrousersStyle": "1",
+                            "ScarfColor": "1",
+                            "CoatStyle": "1",
+                            "Backpack": 1,
+                            "AgeUpLimit": 12,
+                            "GlassStyle": "2",
+                            "UsedName": "张三",
+                            "CoatLength": "1",
+                            "FeatureList": {
+                                "FeatureInfoObject": [
+                                    {
+                                        "AlgorithmVersion": "算法版本",
+                                        "FeatureData": "特征值数据",
+                                        "Vendor": "厂商"
+                                    }
+                                ]
+                            },
+                            "GlassColor": "2",
+                            "CoatColor": "1",
+                            "BagStyle": "1",
+                            "CapColor": "2"
+                        }
+                    ]
+                },
+                "SubImageList": {
+                    "SubImageInfoObject": [
+                        {
+                            "Type": "01",
+                            "StoragePath": "http://192.168.1.1:80/image/1.jpg",
+                            "DeviceID": "32090100005030000000",
+                            "FeatureInfoObject": {
+                                "AlgorithmVersion": "2.2.0",
+                                "FeatureData": "特征值数据",
+                                "Vendor": "厂商"
+                            },
+                            "ImageID": "32090100005030000001022019021316104219072",
+                            "EventSort": 1,
+                            "ShotTime": "21090218145212",
+                            "Height": 20,
+                            "Data": "图片base64编码",
+                            "FileFormat": "Jpeg",
+                            "Width": 20
+                        }
+                    ]
+                },
+                "VehicleClass": "K10",
+                "VehicleShielding": "这是遮挡的描述",
+                "PlateClass": "01",
+                "RightBtmY": 40,
+                "RightBtmX": 30,
+                "IsDecked": "1",
+                "WheelPrintedPattern": "花纹",
+                "PlateNo": "京A66666",
+                "CyclingType": 1,
+                "VehicleDoor": "这是车门的描述",
+                "LeftTopY": 20,
+                "LeftTopX": 10,
+                "VehicleHood": "这是车前盖的描述",
+                "PlateColor": "1",
+                "PlateNoAttach": "京A88888",
+                "VehicleTrunk": "这是车后盖的描述",
+                "PlateDescribe": "这是一个车牌号的描述",
+                "AppearTime": "20190212231230",
+                "VehicleWindow": "这是车窗的描述",
+                "VehicleWidth": 1234,
+                "Direction": "1",
+                "CarOfVehicle": "这是车厢的描述",
+                "MarkTime": "20190212231230",
+                "HasPlate": "1",
+                "LaneNo": 1,
+                "VehicleHeight": 1234,
+                "BreakRuleMode": "02",
+                "Speed": 80.23,
+                "DeviceID": "65010000001190000001",
+                "SourceID": "65010000001320000001012017033012000000001",
+                "VehicleType": "0",
+                "IsCovered": "1",
+                "IsModified": 1,
+                "VehicleBrand": "0",
+                "DrivingStatusCode": "01",
+                "VehicleColorDepth": "1",
+                "VehicleLength": 12345,
+                "InfoKind": 1,
+                "UsingPropertiesCode": 1,
+                "VehicleChassis": "这是底盘",
+                "RelatedList": {
+                    "RelatedObject": [
+                        {
+                            "RelatedType": "01",
+                            "RelatedID": "330108000011900000010520190218164609123450612345"
+                        }
+                    ]
+                },
+                "VehicleColor": "1",
+                "IsAltered": "1",
+                "VehicleWheel": "这是车轮的描述",
+                "FeatureList": {
+                    "FeatureInfoObject": [
+                        {
+                            "AlgorithmVersion": "算法版本",
+                            "FeatureData": "特征值数据",
+                            "Vendor": "厂商"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

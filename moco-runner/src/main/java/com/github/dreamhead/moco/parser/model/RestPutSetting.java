@@ -13,6 +13,6 @@ public final class RestPutSetting extends RestSingleSetting {
 
     @Override
     protected boolean isIdRequired() {
-        return true;
+	return false;
     }
 }

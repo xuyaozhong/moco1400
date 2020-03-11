@@ -1,0 +1,34 @@
+[
+{
+"resource": {
+  "name": "Dispositions",
+  "get": [
+    {
+      "response": {
+	      "file" : "1400/VIID/Dispositions-get.response"
+      }
+    }
+  ],
+  "post": [
+    {
+      "request":
+      {
+	"text" : {
+	 "match" : ".*Dispositions.*"
+	}
+      },
+      "response": {
+	 "file" : "1400/VIID/Dispositions-post.response"
+      }
+    }
+  ],
+  "put": [
+    { "id" : "*", 
+      "response": {
+         "file" : "1400/VIID/Dispositions-put.response"
+      }
+    }
+  ]
+}
+}]
+

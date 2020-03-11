@@ -1,0 +1,60 @@
+{
+    "FaceListObject": {
+        "FaceObject": [
+            {
+                "FaceID": "330108000011900000010520190218164609123450612345",
+                "GenderCode": "0",
+                "EthicCode": "01",
+                "ResidenceAdminDivision": "330108",
+                "DeviceID": "33010800001190000001",
+                "SourceID": "33010800001190000001052019021816460912345",
+                "NationalityCode": "CHN",
+                "SubImageList": {
+                    "SubImageInfoObject": [
+                        {
+                            "Type": "01",
+                            "StoragePath": "http://192.168.1.1:80/image/1.jpg",
+                            "DeviceID": "32090100005030000000",
+                            "FeatureInfoObject": {
+                                "AlgorithmVersion": "算法版本",
+                                "FeatureData": "特征值数据",
+                                "Vendor": "海康威视"
+                            },
+                            "ImageID": "32090100005030000001022019021316104219072",
+                            "EventSort": 1,
+                            "ShotTime": "21090218145212",
+                            "Height": 20,
+                            "Data": "图片base64编码",
+                            "FileFormat": "Jpeg",
+                            "Width": 20
+                        }
+                    ]
+                },
+                "IDType": "111",
+                "Name": "张三",
+                "RelatedList": {
+                    "RelatedObject": [
+                        {
+                            "RelatedType": "01",
+                            "RelatedID": "330108000011900000010520190218164609123450612345"
+                        }
+                    ]
+                },
+                "NativeCityCode": "330108",
+                "FeatureList": {
+                    "FeatureInfoObject": [
+                        {
+                            "AlgorithmVersion": "算法版本",
+                            "FeatureData": "特征值数据",
+                            "Vendor": "海康威视"
+                        }
+                    ]
+                },
+                "ShotTime": "20190218164609",
+                "Similaritydegree": 0.97,
+                "TabID": "33010800001190000001052019021816460912345",
+                "IDNumber": "33010800001190000001"
+            }
+        ]
+    }
+}

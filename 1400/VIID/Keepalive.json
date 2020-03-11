@@ -1,0 +1,34 @@
+[
+{
+"resource": {
+  "name": "Keepalive",
+  "get": [
+    {
+      "response": {
+	      "file" : "1400/VIID/Keepalive-get.response"
+      }
+    }
+  ],
+  "post": [
+    {
+      "request":
+      {
+	"text" : {
+	 "match" : ".*Keepalive.*"
+	}
+      },
+      "response": {
+	 "file" : "1400/VIID/Keepalive-post.response"
+      }
+    }
+  ],
+  "put": [
+    { "id" : "*", 
+      "response": {
+         "file" : "1400/VIID/Keepalive-put.response"
+      }
+    }
+  ]
+}
+}]
+

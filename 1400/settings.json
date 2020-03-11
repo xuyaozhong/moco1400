@@ -1,0 +1,26 @@
+[
+    {
+        "include" : "1400/bar.json"
+    },
+    { "context": "/VIID", "include": "1400/VIID/bar.json" },
+    { "context": "/VIID", "include": "1400/VIID/APEs.json" },
+    { "context": "/VIID", "include": "1400/VIID/Cases.json" },
+    { "context": "/VIID", "include": "1400/VIID/DispositionNotifications.json" },
+    { "context": "/VIID", "include": "1400/VIID/Dispositions.json" },
+    { "context": "/VIID", "include": "1400/VIID/Faces.json" },
+    { "context": "/VIID", "include": "1400/VIID/ImageResultSBIs.json" },
+    { "context": "/VIID", "include": "1400/VIID/Images.json" },
+    { "context": "/VIID", "include": "1400/VIID/ImageSearchedByImagesAsync.json" },
+    { "context": "/VIID", "include": "1400/VIID/ImageSearchedByImagesSync.json" },
+    { "context": "/VIID", "include": "1400/VIID/MotorVehicles.json" },
+    { "context": "/VIID", "include": "1400/VIID/NonMotorVehicles.json" },
+    { "context": "/VIID", "include": "1400/VIID/Persons.json" },
+    { "context": "/VIID", "include": "1400/VIID/Scenes.json" },
+    { "context": "/VIID", "include": "1400/VIID/SubscribeNotifications.json" },
+    { "context": "/VIID", "include": "1400/VIID/Subscribes.json" },
+    { "context": "/VIID/System", "include": "1400/VIID/Keepalive.json" },
+    { "context": "/VIID/System", "include": "1400/VIID/Register.json" },
+    { "context": "/VIID/System", "include": "1400/VIID/UnRegister.json" },
+    { "context": "/VIID", "include": "1400/VIID/Things.json" },
+    { "context": "/VIID", "include": "1400/VIID/VideoLabels.json" }
+]

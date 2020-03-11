@@ -1,0 +1,34 @@
+[
+{
+"resource": {
+  "name": "SubscribeNotifications",
+  "get": [
+    {
+      "response": {
+	      "file" : "1400/VIID/SubscribeNotifications-get.response"
+      }
+    }
+  ],
+  "post": [
+    {
+      "request":
+      {
+	"text" : {
+	 "match" : ".*SubscribeNotifications.*"
+	}
+      },
+      "response": {
+	 "file" : "1400/VIID/SubscribeNotifications-post.response"
+      }
+    }
+  ],
+  "put": [
+    { "id" : "*", 
+      "response": {
+         "file" : "1400/VIID/SubscribeNotifications-put.response"
+      }
+    }
+  ]
+}
+}]
+

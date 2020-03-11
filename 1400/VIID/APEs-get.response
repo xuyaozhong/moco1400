@@ -1,0 +1,28 @@
+{
+    "APEListObject": {
+        "APEObject": [
+            {
+                "IPAddr": "1.1.1.1",
+                "Port": 8080,
+                "FunctionType": "1",
+                "PlaceCode": "110100",
+                "Latitude": 12.123456,
+                "Longitude": 12.123456,
+                "OwnerApsID": "33030000001200000001",
+                "Name": "设备名称",
+                "IsOnline": "1",
+                "PositionType": "1",
+                "OrgCode": "330000000000",
+                "MonitorAreaDesc": "监视区域说明",
+                "CapDirection": 0,
+                "UserId": "用户账号",
+                "Model": "设备型号",
+                "ApeID": "33010800001190000001",
+                "IPV6Addr": "2031:0000:1F1F:0000:0000:0100:11A0:ADDF",
+                "MonitorDirection": "1",
+                "Place": "海康威视三期北门左侧",
+                "Password": "123456"
+            }
+        ]
+    }
+}

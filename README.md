@@ -24,6 +24,29 @@ git clone https://github.com/xuyaozhong/moco1400.git
 ./gradlew check
 ```
 
+## On ubuntu18.04
+
+* Stop firwall and nginx
+
+```shell
+./stopfwnginx.sh
+```
+
+* Fast build project
+
+```shell
+./build.sh
+```
+
+* Mock GAT 1400 REST API
+
+```shell
+./run.sh
+```
+
+Postman access http:://<ip>:8080 
+
+
 ## Copyright and license
 Copyright 2012-2020 ZHENG Ye
 
