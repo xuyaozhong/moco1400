@@ -1,0 +1,28 @@
+[
+{
+"resource": {
+  "name": "VideoSlices",
+  "get": [
+    {
+      "response": {
+	      "file" : "1400/VIID/VideoSlices-get.response"
+      }
+    }
+  ],
+  "post": [
+    {
+      "response": {
+	 "file" : "1400/VIID/VideoSlices-post.response"
+      }
+    }
+  ],
+  "put": [
+    { "id" : "*", 
+      "response": {
+         "file" : "1400/VIID/VideoSlices-put.response"
+      }
+    }
+  ]
+}
+}]
+

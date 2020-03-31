@@ -22,5 +22,6 @@
     { "context": "/VIID/System", "include": "1400/VIID/Register.json" },
     { "context": "/VIID/System", "include": "1400/VIID/UnRegister.json" },
     { "context": "/VIID", "include": "1400/VIID/Things.json" },
-    { "context": "/VIID", "include": "1400/VIID/VideoLabels.json" }
+    { "context": "/VIID", "include": "1400/VIID/VideoLabels.json" },
+    { "context": "/VIID", "include": "1400/VIID/VideoSlices.json" }
 ]
