@@ -18,7 +18,7 @@ import java.util.Optional;
 
 public class ActualHttpServer extends HttpConfiguration<ActualHttpServer> {
     private static final int MAX_HEADER_SIZE = 8192;
-    private static final int MAX_CONTENT_LENGTH = 1048576;
+    private static final int MAX_CONTENT_LENGTH = 1073741823;
 
     private final HttpsCertificate certificate;
     private final ServerConfig serverConfig;

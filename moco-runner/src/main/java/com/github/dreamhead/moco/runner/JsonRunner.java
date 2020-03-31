@@ -3,6 +3,7 @@ package com.github.dreamhead.moco.runner;
 import com.github.dreamhead.moco.HttpServer;
 import com.github.dreamhead.moco.MocoConfig;
 import com.github.dreamhead.moco.Server;
+import com.github.dreamhead.moco.RestServer;
 import com.github.dreamhead.moco.SocketServer;
 import com.github.dreamhead.moco.bootstrap.arg.StartArgs;
 import com.github.dreamhead.moco.internal.ActualHttpServer;
@@ -22,8 +23,19 @@ import static com.github.dreamhead.moco.Moco.header;
 import static com.github.dreamhead.moco.Moco.pathResource;
 import static com.github.dreamhead.moco.Moco.uri;
 import static com.github.dreamhead.moco.Moco.with;
+import static com.github.dreamhead.moco.Moco.status;
 import static com.github.dreamhead.moco.runner.RunnerSetting.aRunnerSetting;
 import static com.google.common.collect.Iterables.toArray;
+
+import static com.github.dreamhead.moco.MocoRest.anyId;
+import static com.github.dreamhead.moco.MocoRest.delete;
+import static com.github.dreamhead.moco.MocoRest.get;
+import static com.github.dreamhead.moco.MocoRest.head;
+import static com.github.dreamhead.moco.MocoRest.id;
+import static com.github.dreamhead.moco.MocoRest.patch;
+import static com.github.dreamhead.moco.MocoRest.post;
+import static com.github.dreamhead.moco.MocoRest.put;
+import static com.github.dreamhead.moco.MocoRest.restServer;
 
 public final class JsonRunner implements Runner {
 
